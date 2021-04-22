@@ -74,7 +74,7 @@
         See Our Products
       </button>
     </section>
-    <section class="pt-10 px-16 w-full md:flex justify-between">
+    <section class="pt-10 px-16 w-full md:flex justify-between space-y-7">
       <div class="space-y-6">
         <p class="text-4xl font-extrabold">About Us</p>
         <p>
@@ -107,8 +107,8 @@
         Our commitment is to meet our customer’s needs and hand over an unforgettable
         financial service experience within the under listed parameters
       </p>
-      <div class="md:flex justify-between block">
-        <div>
+      <div class="md:flex justify-between block space-x-4">
+        <div class="space-y-4">
           <i></i>
           <p class="font-extrabold">Flexible Repayment</p>
           <p>
@@ -116,7 +116,7 @@
             bank to payback
           </p>
         </div>
-        <div>
+        <div class="space-y-4">
           <i></i>
           <p class="font-extrabold">Great Rates</p>
           <p>
@@ -124,7 +124,7 @@
             when it comes to personal and SME lending.
           </p>
         </div>
-        <div>
+        <div class="space-y-4">
           <i></i>
           <p class="font-extrabold">Happy Customers</p>
           <p>
