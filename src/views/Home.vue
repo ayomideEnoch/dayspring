@@ -72,10 +72,10 @@
         See Our Products
       </button>
     </section>
-    <section class="w-full lg:flex justify-around block pt-10">
-      <div class="">
+    <section class="w-full md:flex justify-between pt-10">
+      <div class="space-y-6">
         <p class="text-4xl font-extrabold">About Us</p>
-        <!-- <p>
+        <p>
           Dayspring Capital is Nigeria’s fastest growing financial services provider. We
           do this through our website, social media pages and customer experience center.
           <br />
@@ -83,10 +83,21 @@
           provider is that we also make this service available to individuals who are
           small business owners as it’s our desire to energize the economy through these
           SMEs and provide for their financial needs.
-        </p> -->
+        </p>
+        <button
+          style="background: #1da737"
+          class="text-white rounded-md px-5 py-2 text-base font-semibold"
+        >
+          Read More
+        </button>
       </div>
+      <!-- <div class=""></div> -->
       <div class="">
-        <img class="w-60 h-60 rounded-lg" src="../assets/aboutus.jpg" alt="About Us" />
+        <img
+          class="w-96 md:h-52 h-full rounded-lg"
+          src="../assets/aboutus.jpg"
+          alt="About Us"
+        />
       </div>
     </section>
   </div>
