@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="flex justify-center text-sm">
+    <section class="pt-10 px-16 flex justify-center text-sm">
       <div class="space-x-2 font-medium">
         <a
           href="tel:+234 814
@@ -48,7 +48,9 @@
         ></a>
       </div>
     </section>
-    <section class="flex justify-between items-center text-semibold font-medium my-8">
+    <section
+      class="pt-10 px-16 flex justify-between items-center text-semibold font-medium my-8"
+    >
       <div><img class="w-40 h-40" src="../assets/logo.png" alt="Dayspring Logo" /></div>
       <div class="space-x-6">
         <span class="text-green-700 cursor-pointer">Home</span>
@@ -58,7 +60,7 @@
         <span class="cursor-pointer">Contact Us</span>
       </div>
     </section>
-    <section class="w-full text-center space-y-6">
+    <section class="pt-10 px-16 w-full text-center space-y-6">
       <p class="text-4xl font-extrabold tracking-widest">
         Your Timeless Financial Service Provider
       </p>
@@ -72,7 +74,7 @@
         See Our Products
       </button>
     </section>
-    <section class="w-full md:flex justify-between pt-10">
+    <section class="pt-10 px-16 w-full md:flex justify-between">
       <div class="space-y-6">
         <p class="text-4xl font-extrabold">About Us</p>
         <p>
@@ -91,13 +93,45 @@
           Read More
         </button>
       </div>
-      <!-- <div class=""></div> -->
       <div class="">
         <img
           class="w-96 md:h-52 h-full rounded-lg"
           src="../assets/aboutus.jpg"
           alt="About Us"
         />
+      </div>
+    </section>
+    <section class="pt-10 px-16 mt-10 space-y-6 text-white" style="background: #1da737">
+      <p class="text-4xl font-extrabold">Why Dayspring?</p>
+      <p>
+        Our commitment is to meet our customer’s needs and hand over an unforgettable
+        financial service experience within the under listed parameters
+      </p>
+      <div class="md:flex justify-between block">
+        <div>
+          <i></i>
+          <p class="font-extrabold">Flexible Repayment</p>
+          <p>
+            Our repayment structure is flexible which means you don’t have to break the
+            bank to payback
+          </p>
+        </div>
+        <div>
+          <i></i>
+          <p class="font-extrabold">Great Rates</p>
+          <p>
+            We have that most competitive interest in the market which makes us top choice
+            when it comes to personal and SME lending.
+          </p>
+        </div>
+        <div>
+          <i></i>
+          <p class="font-extrabold">Happy Customers</p>
+          <p>
+            Our client testimonial speaks for us, we are not just a credit company we are
+            our customer's success partners.
+          </p>
+        </div>
       </div>
     </section>
   </div>
