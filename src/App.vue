@@ -1,6 +1,7 @@
 <template>
   <div
-    class="bg-blue-500 w-full h-full min-h-screen flex justify-center items-center overflow-y-auto p-10"
+    class="w-full h-full min-h-screen flex justify-center overflow-y-auto pt-10 px-10"
+    style="background: #ffffff"
   >
     <router-view></router-view>
   </div>
