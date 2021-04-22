@@ -101,7 +101,10 @@
         />
       </div>
     </section>
-    <section class="pt-10 px-16 mt-10 space-y-6 text-white" style="background: #1da737">
+    <section
+      class="pt-10 px-16 mt-10 mb-10 space-y-6 text-white"
+      style="background: #1da737"
+    >
       <p class="text-4xl font-extrabold">Why Dayspring?</p>
       <p>
         Our commitment is to meet our customer’s needs and hand over an unforgettable
@@ -133,6 +136,15 @@
           </p>
         </div>
       </div>
+    </section>
+    <section class="pt-10 px-16 mt-10 mb-10 space-y-6 text-black w-full">
+      <p class="text-4xl font-extrabold">Our Products</p>
+      <div class="w-3/5">
+        <p class="text-center">
+          Dayspring<span class="text-green-700 font-semibold">Credit</span>
+        </p>
+      </div>
+      <div class="w-2/5"></div>
     </section>
   </div>
 </template>
