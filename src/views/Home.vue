@@ -109,7 +109,7 @@
       </p>
       <div class="md:flex justify-between block space-x-4">
         <div class="space-y-4">
-          <i></i>
+          <img src="../assets/payment.svg" alt="Payment" />
           <p class="font-extrabold">Flexible Repayment</p>
           <p>
             Our repayment structure is flexible which means you don’t have to break the
@@ -117,7 +117,7 @@
           </p>
         </div>
         <div class="space-y-4">
-          <i></i>
+          <img src="../assets/rates.svg" alt="Rates" />
           <p class="font-extrabold">Great Rates</p>
           <p>
             We have that most competitive interest in the market which makes us top choice
@@ -125,7 +125,7 @@
           </p>
         </div>
         <div class="space-y-4">
-          <i></i>
+          <img src="../assets/customers.svg" alt="Customers" />
           <p class="font-extrabold">Happy Customers</p>
           <p>
             Our client testimonial speaks for us, we are not just a credit company we are
