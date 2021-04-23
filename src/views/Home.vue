@@ -79,8 +79,8 @@
     </section>
     <section class="pt-32 px-44 w-full flex justify-between space-y-7 space-x-7">
       <div class="space-y-6 w-3/5">
-        <p class="text-4xl font-extrabold">About Us</p>
-        <p>
+        <p class="font-extrabold" style="font-size: 35px">About Us</p>
+        <p style="font-size: 15px">
           Dayspring Capital is Nigeria’s fastest growing financial services provider. We
           do this through our website, social media pages and customer experience center.
           <br />
@@ -90,8 +90,8 @@
           SMEs and provide for their financial needs.
         </p>
         <button
-          style="background: #1da737"
-          class="text-white rounded-md px-5 py-2 text-base font-semibold"
+          style="background: #1da737, font-size:15px"
+          class="text-white rounded-md px-7 py-4 font-semibold"
         >
           Read More
         </button>
@@ -107,17 +107,17 @@
       </div>
     </section>
     <section
-      class="pt-10 px-48 mt-10 mb-10 space-y-6 text-white"
+      class="pt-10 px-44 mt-24 mb-10 space-y-6 text-white"
       style="background: #1da737"
     >
-      <p class="text-4xl font-extrabold">Why Dayspring?</p>
-      <p>
+      <p class="text-4xl font-extrabold pt-16 pb-9">Why Dayspring?</p>
+      <p style="font-size:15px">
         Our commitment is to meet our customer’s needs and hand over an unforgettable
         financial service experience within the under listed parameters
       </p>
       <div class="md:flex justify-between block space-x-4 pb-10">
         <div class="space-y-4">
-          <img src="../assets/payment.svg" alt="Payment" />
+          <img class="w-7 h-5" src="../assets/payment.svg" alt="Payment" />
           <p class="font-extrabold">Flexible Repayment</p>
           <p>
             Our repayment structure is flexible which means you don’t have to break the
@@ -125,7 +125,7 @@
           </p>
         </div>
         <div class="space-y-4">
-          <img src="../assets/rates.svg" alt="Rates" />
+          <img class="w-5 h-4" src="../assets/rates.svg" alt="Rates" />
           <p class="font-extrabold">Great Rates</p>
           <p>
             We have that most competitive interest in the market which makes us top choice
@@ -133,7 +133,7 @@
           </p>
         </div>
         <div class="space-y-4">
-          <img src="../assets/customers.svg" alt="Customers" />
+          <img class="w-5 h-5" src="../assets/customers.svg" alt="Customers" />
           <p class="font-extrabold">Happy Customers</p>
           <p>
             Our client testimonial speaks for us, we are not just a credit company we are
