@@ -1,34 +1,33 @@
 <template>
   <div class="w-full">
-    <section class="px-32 pt-8 flex justify-center text-xs">
-      <div class="space-x-2 font-medium">
+    <section class="px-48 pt-6 flex justify-center items-center space-x-2 text-xs">
+      <div class="text-xs flex">
         <a
           href="tel:+234 814
         932 7275 "
+          ><div class="flex">
+            <img style="color: #1da737" src="../assets/tel.svg" alt="tel icon" />
+
+            +234 814 932 7275, +234 810 950 7030
+          </div></a
         >
-          <span>
-            <i class="fa fa-phone pr-2" style="color: #1da737" aria-hidden="true"></i>+234
-            814 932 7275, +234 810 950 7030
-          </span></a
-        ><a href="mailto:support@dayspring.com ">
-          <span>
-            <i class="fa fa-envelope pr-2" style="color: #1da737" aria-hidden="true"></i
-            >support@dayspring.com
-          </span></a
+        <a href="mailto:support@dayspring.com "
+          ><div class="flex">
+            <img style="color: #1da737" src="../assets/mail.svg" alt="tel icon" />
+
+            support@dayspring.com
+          </div></a
         >
         <a
           href="https://www.google.com/maps/place/Amuwo+Odofin+Estate,+Lagos/@6.477648,3.2904734,14z/data=!4m5!3m4!1s0x103b892def871c8b:0xb4250ab791be1ae7!8m2!3d6.4768936!4d3.3137121"
           target="_blank"
+          ><div class="flex">
+            <img style="color: #1da737" src="../assets/location_on.svg" alt="tel icon" />
+
+            Plot 24, Oba Onigbanko Way, Amuwo Odofin, Lagos
+          </div></a
         >
-          <span>
-            <i
-              class="fas fa-map-marker-alt pr-2"
-              style="color: #1da737"
-              aria-hidden="true"
-            ></i
-            >Plot 24, Oba Onigbanko Way, Amuwo Odofin, Lagos
-          </span></a
-        >
+
         <a href="">
           <span>
             <i class="far fa-clock pr-2" style="color: #1da737" aria-hidden="true"></i>Mon
@@ -36,7 +35,7 @@
           </span></a
         >
       </div>
-      <div class="space-x-6 " style="color: #1da737">
+      <div class="space-x-6 pl-28" style="color: #1da737">
         <a href="https://web.facebook.com" target="_blank"
           ><span><i class="fab fa-facebook-f"></i></span
         ></a>
@@ -49,9 +48,9 @@
       </div>
     </section>
     <section
-      class="pt-4 px-32 flex justify-between items-center text-semibold font-medium my-8"
+      class="pt-4 px-48 flex justify-between items-center text-semibold font-medium my-8"
     >
-      <div><img class="w-40 h-40" src="../assets/logo.png" alt="Dayspring Logo" /></div>
+      <div><img class="w-40 h-40" src="../assets/logo.svg" alt="Dayspring Logo" /></div>
       <div class="space-x-6">
         <span class="text-green-700 cursor-pointer">Home</span>
 
@@ -60,7 +59,7 @@
         <span class="cursor-pointer">Contact Us</span>
       </div>
     </section>
-    <section class="pt-10 px-32 w-full text-center space-y-6">
+    <section class="pt-10 px-48 w-full text-center space-y-6">
       <p class="text-4xl font-extrabold tracking-widest">
         Your Timeless Financial Service Provider
       </p>
@@ -74,7 +73,7 @@
         See Our Products
       </button>
     </section>
-    <section class="pt-10 px-32 w-full md:flex justify-between space-y-7">
+    <section class="pt-10 px-48 w-full md:flex justify-between space-y-7">
       <div class="space-y-6">
         <p class="text-4xl font-extrabold">About Us</p>
         <p>
@@ -102,7 +101,7 @@
       </div>
     </section>
     <section
-      class="pt-10 px-32 mt-10 mb-10 space-y-6 text-white"
+      class="pt-10 px-48 mt-10 mb-10 space-y-6 text-white"
       style="background: #1da737"
     >
       <p class="text-4xl font-extrabold">Why Dayspring?</p>
