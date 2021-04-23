@@ -191,10 +191,27 @@
       style="background: #1da737"
     >
       <p class="text-4xl font-extrabold">What Our Client's Say</p>
-      <p>
-        Our commitment is to meet our customer’s needs and hand over an unforgettable
-        financial service experience within the under listed parameters
-      </p>
+      <p>Dont worry, you're in good hands.</p>
+      <div class="flex">
+        <div>
+          <div class="flex">
+<img src="../assets/effect.svg" alt="effect">
+<img src="../assets/client1.svg" alt="client1">
+          </div>
+          <p>“I was having financial challenges to buy equipment, I requested for a loan and I was attended to within 2 hours.</p>
+          <p>Paul Oyebanjo</p>
+          <p>Sound Engineer</p>
+        </div>
+        <div>
+          <div class="flex">
+<img src="../assets/effect.svg" alt="effect">
+<img src="../assets/client1.svg" alt="client1">
+          </div>
+          <p>“I was having financial challenges to buy equipment, I requested for a loan and I was attended to within 2 hours.</p>
+          <p>Paul Oyebanjo</p>
+          <p>Sound Engineer</p>
+        </div>
+      </div>
     </section>
   </div>
 </template>
