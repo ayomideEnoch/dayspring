@@ -1,41 +1,49 @@
 <template>
   <div class="w-full">
-    <section class="px-48 pt-6 flex justify-center items-center space-x-2 text-xs">
-      <div class="text-xs flex">
-        <a
-          href="tel:+234 814
-        932 7275 "
-          ><div class="flex">
+    <section class="px-44 pt-6 flex justify-between">
+      <div class="text-xs flex space-x-3 justify-between">
+        <div class="text-center">
+          <a href="tel:+234 814 932 7275" class="flex">
             <img style="color: #1da737" src="../assets/tel.svg" alt="tel icon" />
+            <p>+234 814 932 7275, +234 810 950 7030</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a href="mailto:support@dayspring.com " class="flex items-center">
+            <img
+              style="color: #1da737"
+              src="../assets/mail.svg"
+              alt="tel icon"
+              class="pr-1"
+            />
+            <p>support@dayspring.com</p>
+          </a>
+        </div>
+        <div class="text-center">
+          <a
+            href="https://www.google.com/maps/place/Amuwo+Odofin+Estate,+Lagos/@6.477648,3.2904734,14z/data=!4m5!3m4!1s0x103b892def871c8b:0xb4250ab791be1ae7!8m2!3d6.4768936!4d3.3137121"
+            target="_blank"
+            class="pr-1"
+            ><div class="flex">
+              <img
+                style="color: #1da737"
+                src="../assets/location_on.svg"
+                alt="tel icon"
+                class="pr-1"
+              />
+              <p>Plot 24, Oba Onigbanko Way, Amuwo Odofin, Lagos</p>
+            </div></a
+          >
+        </div>
 
-            +234 814 932 7275, +234 810 950 7030
-          </div></a
-        >
-        <a href="mailto:support@dayspring.com "
-          ><div class="flex">
-            <img style="color: #1da737" src="../assets/mail.svg" alt="tel icon" />
-
-            support@dayspring.com
-          </div></a
-        >
-        <a
-          href="https://www.google.com/maps/place/Amuwo+Odofin+Estate,+Lagos/@6.477648,3.2904734,14z/data=!4m5!3m4!1s0x103b892def871c8b:0xb4250ab791be1ae7!8m2!3d6.4768936!4d3.3137121"
-          target="_blank"
-          ><div class="flex">
-            <img style="color: #1da737" src="../assets/location_on.svg" alt="tel icon" />
-
-            Plot 24, Oba Onigbanko Way, Amuwo Odofin, Lagos
-          </div></a
-        >
-
-        <a href="">
+        <div class="text-center">
           <span>
-            <i class="far fa-clock pr-2" style="color: #1da737" aria-hidden="true"></i>Mon
-            - Fri: 9:00AM - 5:00PM
-          </span></a
-        >
+            <i class="far fa-clock pr-1" style="color: #1da737"></i>Mon - Fri: 9:00AM -
+            5:00PM
+          </span>
+        </div>
       </div>
-      <div class="space-x-6 pl-28" style="color: #1da737">
+      <div class="space-x-3" style="color: #1da737">
         <a href="https://web.facebook.com" target="_blank"
           ><span><i class="fab fa-facebook-f"></i></span
         ></a>
@@ -47,10 +55,8 @@
         ></a>
       </div>
     </section>
-    <section
-      class="pt-4 px-48 flex justify-between items-center text-semibold font-medium my-8"
-    >
-      <div><img class="w-40 h-40" src="../assets/logo.svg" alt="Dayspring Logo" /></div>
+    <section class="px-44 flex justify-between items-center text-bold font-medium my-7">
+      <div><img class="w-20 h-20" src="../assets/logo.svg" alt="Dayspring Logo" /></div>
       <div class="space-x-6">
         <span class="text-green-700 cursor-pointer">Home</span>
 
@@ -59,22 +65,20 @@
         <span class="cursor-pointer">Contact Us</span>
       </div>
     </section>
-    <section class="pt-10 px-48 w-full text-center space-y-6">
-      <p class="text-4xl font-extrabold tracking-widest">
-        Your Timeless Financial Service Provider
-      </p>
-      <p class="text-sm font-semibold">
+    <section class="pt-24 px-44 w-full text-center space-y-9">
+      <p class="font-extrabold text-5xl">Your Timeless Financial Service Provider</p>
+      <p class="text-xl font-semibold">
         We have provided over 300,000 loans to individuals and small businesses in Nigeria
       </p>
       <button
         style="background: #1da737"
-        class="text-white rounded-md px-5 py-2 text-base font-semibold"
+        class="text-white rounded-md py-4 px-9 text-xl font-semibold"
       >
         See Our Products
       </button>
     </section>
-    <section class="pt-10 px-48 w-full md:flex justify-between space-y-7">
-      <div class="space-y-6">
+    <section class="pt-10 px-44 w-full flex justify-between space-y-7 space-x-7">
+      <div class="space-y-6 w-3/5">
         <p class="text-4xl font-extrabold">About Us</p>
         <p>
           Dayspring Capital is Nigeria’s fastest growing financial services provider. We
@@ -92,12 +96,14 @@
           Read More
         </button>
       </div>
-      <div class="">
-        <img
-          class="w-96 md:h-52 h-full rounded-lg"
-          src="../assets/aboutus.jpg"
-          alt="About Us"
-        />
+      <div class="w-2/5">
+        <div class="w-72 h-64">
+          <img
+            class="w-full h-full inset-0 object-cover rounded-lg"
+            src="../assets/aboutus.jpg"
+            alt="About Us"
+          />
+        </div>
       </div>
     </section>
     <section
