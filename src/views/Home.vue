@@ -204,7 +204,7 @@
               <img src="../assets/client1.svg" alt="client1" class="w-full h-full" />
             </div>
           </div>
-          <p style="font-size:20px, font-style:italicize">
+          <p style="font-size: 20px" class="italic">
             “I was having financial challenges to buy equipment, I requested for a loan
             and I was attended to within 2 hours.
           </p>
@@ -220,7 +220,7 @@
               <img src="../assets/client2.svg" alt="client1" class="w-full h-full" />
             </div>
           </div>
-          <p class="italic" style="font-size:20px">
+          <p class="italic" style="font-size: 20px">
             “I requested for a loan to complete a project, and i was attended to and was
             credited within 30 minutes, after my request was reviewed.The interest is so
             affordable compared to others.They are dependable and reliable.
@@ -230,9 +230,9 @@
         </div>
       </div>
     </section>
-    <section class="pt-10 px-44 mt-24 mb-10 space-y-6">
+    <section class="pt-10 px-44 mt-14 mb-10 space-y-6">
       <p class="text-4xl font-bold">Send Us A Message</p>
-      <p class="italic" style="font-size:20px">
+      <p style="font-size: 15px">
         Thank you for your interest in Dayspring Capital. Please fill out the form below
         to ask your questions. We will get back to you within the shortest possible time.
       </p>
