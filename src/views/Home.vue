@@ -236,6 +236,9 @@
         Thank you for your interest in Dayspring Capital. Please fill out the form below
         to ask your questions. We will get back to you within the shortest possible time.
       </p>
+      <div class="flex justify-between">
+        <img src="../assets/message.svg" alt="send message">
+      </div>
     </section>
   </div>
 </template>
