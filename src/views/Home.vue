@@ -186,6 +186,16 @@
         </div>
       </div>
     </section>
+    <section
+      class="pt-10 px-16 mt-10 mb-10 space-y-6 text-white"
+      style="background: #1da737"
+    >
+      <p class="text-4xl font-extrabold">What Our Client's Say</p>
+      <p>
+        Our commitment is to meet our customer’s needs and hand over an unforgettable
+        financial service experience within the under listed parameters
+      </p>
+    </section>
   </div>
 </template>
 
