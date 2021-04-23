@@ -110,7 +110,7 @@
         Our commitment is to meet our customer’s needs and hand over an unforgettable
         financial service experience within the under listed parameters
       </p>
-      <div class="md:flex justify-between block space-x-4">
+      <div class="md:flex justify-between block space-x-4 pb-10">
         <div class="space-y-4">
           <img src="../assets/payment.svg" alt="Payment" />
           <p class="font-extrabold">Flexible Repayment</p>
@@ -138,13 +138,53 @@
       </div>
     </section>
     <section class="pt-10 px-16 mt-10 mb-10 space-y-6 text-black w-full">
-      <p class="text-4xl font-extrabold">Our Products</p>
-      <div class="w-3/5">
-        <p class="text-center">
-          Dayspring<span class="text-green-700 font-semibold">Credit</span>
-        </p>
+      <div>
+        <p class="text-4xl font-extrabold">Our Products</p>
+        <div class="flex">
+          <div class="w-3/5">
+            <div class="border bg-red-100 rounded-md">
+              <p class="text-center font-semibold my-6">
+                Dayspring<span class="text-green-700">Credit</span>
+              </p>
+            </div>
+            <p>
+              Dayspring Credit is our platform where we give financial credit to
+              Individuals and groups for their financial needs. For this we also target
+              credit worthy salary earners who can access this facility. This is available
+              between the sum of 100,000- 5 Million based on request. With a 10% interest
+              rate, we’ve eased the repayment for customers. This is repaid on a monthly
+              basis. The target markets for this are individuals, groups and corporate
+              entity.
+            </p>
+            <button
+              style="background: #1da737"
+              class="text-white rounded-md px-5 py-2 mt-3 mb-6"
+            >
+              Read More
+            </button>
+          </div>
+          <div class="w-2/5 text-base font-semibold rounded-md ml-3 py-3">
+            <div class="pl-4 space-y-3">
+              <p class="flex text-green-700">
+                <img
+                  src="../assets//bullet.svg"
+                  alt="bullet point"
+                  class="pr-4"
+                />Dayspring Credit
+              </p>
+              <p>Dayspring Asset Financing</p>
+              <p>Dayspring Market Money</p>
+              <p>Dayspring Asset Management</p>
+              <p>Dayspring Equipment Leasing</p>
+              <p>Our Foreign Exchange Services</p>
+              <p>FX Brokerage & Transfer</p>
+              <p>Cash Delivery</p>
+              <p>Business Consultancy Services</p>
+              <p>Investment Management</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="w-2/5"></div>
     </section>
   </div>
 </template>
