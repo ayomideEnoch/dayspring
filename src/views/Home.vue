@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <section class="pt-10 px-16 flex justify-center text-sm">
+  <div class="w-full">
+    <section class="px-32 pt-8 flex justify-center text-xs">
       <div class="space-x-2 font-medium">
         <a
           href="tel:+234 814
@@ -36,7 +36,7 @@
           </span></a
         >
       </div>
-      <div class="space-x-6 pl-16" style="color: #1da737">
+      <div class="space-x-6 " style="color: #1da737">
         <a href="https://web.facebook.com" target="_blank"
           ><span><i class="fab fa-facebook-f"></i></span
         ></a>
@@ -49,7 +49,7 @@
       </div>
     </section>
     <section
-      class="pt-10 px-16 flex justify-between items-center text-semibold font-medium my-8"
+      class="pt-4 px-32 flex justify-between items-center text-semibold font-medium my-8"
     >
       <div><img class="w-40 h-40" src="../assets/logo.png" alt="Dayspring Logo" /></div>
       <div class="space-x-6">
@@ -60,7 +60,7 @@
         <span class="cursor-pointer">Contact Us</span>
       </div>
     </section>
-    <section class="pt-10 px-16 w-full text-center space-y-6">
+    <section class="pt-10 px-32 w-full text-center space-y-6">
       <p class="text-4xl font-extrabold tracking-widest">
         Your Timeless Financial Service Provider
       </p>
@@ -74,7 +74,7 @@
         See Our Products
       </button>
     </section>
-    <section class="pt-10 px-16 w-full md:flex justify-between space-y-7">
+    <section class="pt-10 px-32 w-full md:flex justify-between space-y-7">
       <div class="space-y-6">
         <p class="text-4xl font-extrabold">About Us</p>
         <p>
@@ -102,7 +102,7 @@
       </div>
     </section>
     <section
-      class="pt-10 px-16 mt-10 mb-10 space-y-6 text-white"
+      class="pt-10 px-32 mt-10 mb-10 space-y-6 text-white"
       style="background: #1da737"
     >
       <p class="text-4xl font-extrabold">Why Dayspring?</p>
@@ -140,7 +140,7 @@
     <section class="pt-10 px-16 mt-10 mb-10 space-y-6 text-black w-full">
       <div>
         <p class="text-4xl font-extrabold">Our Products</p>
-        <div class="flex">
+        <div class="md:flex block">
           <div class="w-3/5">
             <div class="border bg-red-100 rounded-md">
               <p class="text-center font-semibold my-6">
@@ -186,32 +186,51 @@
         </div>
       </div>
     </section>
-    <section
-      class="pt-10 px-16 mt-10 mb-10 space-y-6 text-white"
-      style="background: #1da737"
-    >
+    <section class="pt-10 px-16 mt-10 space-y-6 text-white" style="background: #1da737">
       <p class="text-4xl font-extrabold">What Our Client's Say</p>
       <p>Dont worry, you're in good hands.</p>
-      <div class="flex">
-        <div>
-          <div class="flex">
-<img src="../assets/effect.svg" alt="effect">
-<img src="../assets/client1.svg" alt="client1">
+      <div class="md:flex block md:space-x-12 space-x-0 pb-10">
+        <div class="w-1/2 space-y-3">
+          <div class="flex items-center -space-x-20">
+            <div class="h-28 w-24">
+              <img src="../assets/effect.svg" alt="effect" class="w-full h-full" />
+            </div>
+            <div class="h-20 w-20">
+              <img src="../assets/client1.svg" alt="client1" class="w-full h-full" />
+            </div>
           </div>
-          <p>“I was having financial challenges to buy equipment, I requested for a loan and I was attended to within 2 hours.</p>
+          <p>
+            “I was having financial challenges to buy equipment, I requested for a loan
+            and I was attended to within 2 hours.
+          </p>
           <p>Paul Oyebanjo</p>
           <p>Sound Engineer</p>
         </div>
-        <div>
-          <div class="flex">
-<img src="../assets/effect.svg" alt="effect">
-<img src="../assets/client1.svg" alt="client1">
+        <div class="w-1/2 space-y-3">
+          <div class="flex items-center -space-x-20">
+            <div class="h-28 w-24">
+              <img src="../assets/effect.svg" alt="effect" class="w-full h-full" />
+            </div>
+            <div class="h-20 w-20">
+              <img src="../assets/client2.svg" alt="client1" class="w-full h-full" />
+            </div>
           </div>
-          <p>“I was having financial challenges to buy equipment, I requested for a loan and I was attended to within 2 hours.</p>
-          <p>Paul Oyebanjo</p>
-          <p>Sound Engineer</p>
+          <p>
+            “I requested for a loan to complete a project, and i was attended to and was
+            credited within 30 minutes, after my request was reviewed.The interest is so
+            affordable compared to others.They are dependable and reliable.
+          </p>
+          <p>Adeniyi Adeyemi</p>
+          <p>Architect</p>
         </div>
       </div>
+    </section>
+    <section class="pt-10 px-16 mt-10 space-y-6">
+      <p class="text-4xl font-extrabold">Send Us A Message</p>
+      <p class="font-bold">
+        Thank you for your interest in Dayspring Capital. Please fill out the form below
+        to ask your questions. We will get back to you within the shortest possible time.
+      </p>
     </section>
   </div>
 </template>

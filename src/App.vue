@@ -1,8 +1,5 @@
 <template>
-  <div
-    class="w-full h-full min-h-screen flex justify-center overflow-y-auto"
-    style="background: #ffffff"
-  >
+  <div class="w-full h-screen overflow-y-auto">
     <router-view></router-view>
   </div>
 </template>
