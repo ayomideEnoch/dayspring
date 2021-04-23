@@ -77,7 +77,7 @@
         See Our Products
       </button>
     </section>
-    <section class="pt-10 px-44 w-full flex justify-between space-y-7 space-x-7">
+    <section class="pt-32 px-44 w-full flex justify-between space-y-7 space-x-7">
       <div class="space-y-6 w-3/5">
         <p class="text-4xl font-extrabold">About Us</p>
         <p>
