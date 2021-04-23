@@ -78,7 +78,7 @@
       </button>
     </section>
     <section class="pt-32 px-44 w-full flex justify-between space-y-7 space-x-7">
-      <div class="space-y-6 w-3/5">
+      <div class="space-y-6">
         <p class="font-extrabold" style="font-size: 35px">About Us</p>
         <p style="font-size: 15px">
           Dayspring Capital is Nigeria’s fastest growing financial services provider. We
@@ -96,7 +96,7 @@
           Read More
         </button>
       </div>
-      <div class="w-2/5">
+      <div class="">
         <div class="w-72 h-64">
           <img
             class="w-full h-full inset-0 object-cover rounded-lg"
@@ -111,14 +111,14 @@
       style="background: #1da737"
     >
       <p class="text-4xl font-extrabold pt-16 pb-9">Why Dayspring?</p>
-      <p style="font-size:15px">
+      <p style="font-size: 15px">
         Our commitment is to meet our customer’s needs and hand over an unforgettable
         financial service experience within the under listed parameters
       </p>
       <div class="md:flex justify-between block space-x-4 pb-10">
         <div class="space-y-4">
           <img class="w-7 h-5" src="../assets/payment.svg" alt="Payment" />
-          <p class="font-extrabold">Flexible Repayment</p>
+          <p class="font-bold" style="font-size: 20px">Flexible Repayment</p>
           <p>
             Our repayment structure is flexible which means you don’t have to break the
             bank to payback
@@ -126,7 +126,7 @@
         </div>
         <div class="space-y-4">
           <img class="w-5 h-4" src="../assets/rates.svg" alt="Rates" />
-          <p class="font-extrabold">Great Rates</p>
+          <p class="font-bold" style="font-size: 20px">Great Rates</p>
           <p>
             We have that most competitive interest in the market which makes us top choice
             when it comes to personal and SME lending.
@@ -134,7 +134,7 @@
         </div>
         <div class="space-y-4">
           <img class="w-5 h-5" src="../assets/customers.svg" alt="Customers" />
-          <p class="font-extrabold">Happy Customers</p>
+          <p class="font-bold" style="font-size: 20px">Happy Customers</p>
           <p>
             Our client testimonial speaks for us, we are not just a credit company we are
             our customer's success partners.
