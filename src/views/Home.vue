@@ -236,8 +236,37 @@
         Thank you for your interest in Dayspring Capital. Please fill out the form below
         to ask your questions. We will get back to you within the shortest possible time.
       </p>
-      <div class="flex justify-between">
-        <img src="../assets/message.svg" alt="send message">
+      <div class="flex justify-between w-full">
+        <div class="inset-0 object-cover w-1/3">
+          <img
+            class="w-80"
+            style="height: 524px"
+            src="../assets/message.svg"
+            alt="send message"
+          />
+        </div>
+        <div class="w-2/3">
+          <div class="">
+            <div class="flex">
+              <p><label for="fname" class="block" style="font-size:15px">First Name</label><br /></p>
+              <input type="text" placeholder="e.g John" />
+              <label for="sname" class="block">Second Name</label><br />
+              <input type="text" placeholder="e.g Doe" />
+            </div>
+          </div>
+          <label for="email">Email Address</label>
+          <input type="email" />
+          <label for="p/no">Phone Number</label>
+          <input type="number" />
+          <label for="message">Message</label>
+          <input type="textarea" />
+          <button
+            style="background: #1da737 font-size:15px"
+            class="text-white rounded-md px-8 py-4 font-semibold"
+          >
+            Send Message
+          </button>
+        </div>
       </div>
     </section>
   </div>
