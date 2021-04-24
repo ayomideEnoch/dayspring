@@ -270,7 +270,7 @@
 
           <div class="w-full flex">
             <div class="w-1/2">
-              <label for="email" class="" style="font-size: 15px">Email</label>
+              <label for="email" class="" style="font-size: 15px">Email Address</label>
               <br />
               <input
                 type="email"
@@ -308,21 +308,29 @@
         </div>
       </div>
     </section>
-    <section class="pt-10 px-44 mt-14 mb-10 space-y-6 bg-black text-white">
+    <section class="pt-10 px-44 mt-14 pb-10 space-y-6 bg-black text-white">
       <div class="w-full flex">
         <div class="w-2/3">
           <img src="../assets/logo.svg" alt="footer logo" class="w-20 h-20" />
-          <p style="font-size: 15px">
+          <p style="font-size: 15px my-24">
             Be the first to know! Subscribe to our mailing list to keep up with the latest
             news and offers.
           </p>
-          <label for="email" class="" style="font-size: 15px">Email</label>
-              <br />
-              <input
-                type="email"
-                placeholder="e.g johndoe@email.com"
-                class="px-14 py-2 rounded-xl focus:outline-none focus:ring focus:border-blue-300 mt-1"
-              />
+          <label for="email" class="" style="font-size: 15px">Email Address</label>
+          <br />
+          <div class="flex space-x-5">
+            <input
+              type="email"
+              placeholder="e.g johndoe@email.com"
+              class="px-14 py-2 rounded-xl focus:outline-none focus:ring focus:border-blue-300 mt-1"
+            />
+            <button
+              style="background: #1da737"
+              class="text-white rounded-md py-2 px-7 text-xl font-semibold"
+            >
+              Subscribe
+            </button>
+          </div>
         </div>
         <div class="w-1/3">a</div>
       </div>
