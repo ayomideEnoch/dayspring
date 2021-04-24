@@ -236,7 +236,7 @@
         Thank you for your interest in Dayspring Capital. Please fill out the form below
         to ask your questions. We will get back to you within the shortest possible time.
       </p>
-      <div class="flex justify-between w-full space-x-4">
+      <div class="flex justify-between w-full space-x-9">
         <div class="inset-0 object-cover w-1/3">
           <img
             class="w-80"
@@ -296,16 +296,16 @@
             <input
               type="text"
               placeholder="Write your message here"
-              class="pl-14 pt-6 pb-14 rounded-xl focus:outline-none focus:ring focus:border-blue-300 mt-1"
+              class="pr-96 pl-14 pt-6 pb-24 rounded-xl focus:outline-none focus:ring focus:border-blue-300 mt-1"
             />
           </div>
 
-          <!-- <button
-            style="background: #1da737 font-size:15px"
+          <button
+            style="font-size: 15px"
             class="text-white rounded-md px-8 py-4 font-semibold"
           >
             Send Message
-          </button> -->
+          </button>
         </div>
       </div>
     </section>
