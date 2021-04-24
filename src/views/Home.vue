@@ -405,8 +405,8 @@
         <div class="w-2/3">
           <p>&#64;2021 Dayspring Capital RC 1640535. All rights reserved.</p>
         </div>
-        <div class="w-1/3">
-          <div class="space-x-3" style="color: #1da737">
+        <div class="w-1/3 flex justify-around">
+          <div class="space-x-12 flex" style="color: #1da737">
             <a href="https://web.facebook.com" target="_blank">
               <img class="w-2 h-4" src="../assets/facebook.svg" alt="facebook" />
             </a>
@@ -416,6 +416,10 @@
             <a href="https://www.instagram.com/" target="_blank">
               <img class="w-4 h-4" src="../assets/instagram.svg" alt="instagram" />
             </a>
+          </div>
+          <div>
+            <img class="w-3 h-2" src="" alt="">
+            <p>Back to top</p>
           </div>
         </div>
       </div>
