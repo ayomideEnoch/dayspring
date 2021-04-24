@@ -267,7 +267,8 @@
               />
             </div>
           </div>
-          1<div class="w-full flex">
+
+          <div class="w-full flex">
             <div class="w-1/2">
               <label for="email" class="" style="font-size: 15px">Email</label>
               <br />
@@ -289,19 +290,15 @@
             </div>
           </div>
 
-
           <div class="w-full">
-              <label for="message" class="" style="font-size: 15px">Message</label>
-              <br />
-              <input
-                type="text"
-                placeholder="Write Your Message"
-                class="px-14 py-14 rounded-xl focus:outline-none focus:ring focus:border-blue-300 mt-1"
-              />
-            </div>
+            <label for="message" class="" style="font-size: 15px">Message</label>
+            <br />
+            <input
+              type="text"
+              placeholder="Write your message here"
+              class="pt-2 pb-14 rounded-xl focus:outline-none focus:ring focus:border-blue-300 mt-1"
+            />
           </div>
-
-
 
           <!-- <button
             style="background: #1da737 font-size:15px"
