@@ -36,11 +36,14 @@
           >
         </div>
 
-        <div class="text-center">
-          <span>
-            <i class="far fa-clock pr-1" style="color: #1da737"></i>Mon - Fri: 9:00AM -
-            5:00PM
-          </span>
+        <div class="flex">
+          <img
+            style="color: #1da737"
+            src="../assets/time.svg"
+            alt="tel icon"
+            class="w-4 h-4 pr-1"
+          />
+          <p>- Fri: 9:00AM - 5:00PM</p>
         </div>
       </div>
       <div class="space-x-3" style="color: #1da737">
@@ -308,11 +311,11 @@
         </div>
       </div>
     </section>
-    <section class="pt-10 px-44 mt-14 pb-10 space-y-6 bg-black text-white">
+    <section class="pt-10 px-44 mt-14 pb-10 bg-black text-white">
       <div class="w-full flex">
         <div class="w-2/3">
-          <img src="../assets/logo.svg" alt="footer logo" class="w-20 h-20" />
-          <p style="font-size: 15px my-48">
+          <img src="../assets/logo.svg" alt="footer logo" class="w-20 h-20 mb-6" />
+          <p style="font-size: 15px" class="mb-6">
             Be the first to know! Subscribe to our mailing list to keep up with the latest
             news and offers.
           </p>
@@ -326,13 +329,76 @@
             />
             <button
               style="background: #1da737"
-              class="text-white rounded-md py-1 px-7 text-xl font-semibold"
+              class="text-white rounded-md py-2 px-7 text-xl font-semibold"
             >
               Subscribe
             </button>
           </div>
         </div>
-        <div class="w-1/3">a</div>
+        <div class="w-1/3">
+          <div class="space-y-8" style="font-size: 15px">
+            <div class="">
+              <a href="tel:+234 814 932 7275" class="flex">
+                <img style="color: #1da737" src="../assets/tel.svg" alt="tel icon" />
+                <div class="space-y-2 pl-4">
+                  <p class="text-extrabold">Phone Number(s)</p>
+                  <p>+234 814 932 7275, +234 810 950 7030</p>
+                </div>
+              </a>
+            </div>
+            <div class="">
+              <a href="mailto:support@dayspring.com " class="flex">
+                <img
+                  style="color: #1da737"
+                  src="../assets/mail.svg"
+                  alt="tel icon"
+                  class=""
+                />
+                <div class="space-y-2 pl-4">
+                  <p class="text-extrabold">Email Address</p>
+                  <p>support@dayspring.com</p>
+                </div>
+              </a>
+            </div>
+            <div class="">
+              <a
+                href="https://www.google.com/maps/place/Amuwo+Odofin+Estate,+Lagos/@6.477648,3.2904734,14z/data=!4m5!3m4!1s0x103b892def871c8b:0xb4250ab791be1ae7!8m2!3d6.4768936!4d3.3137121"
+                target="_blank"
+                class="flex"
+              >
+                <img
+                  style="color: #1da737"
+                  src="../assets/location_on.svg"
+                  alt="tel icon"
+                  class=""
+                />
+                <div class="space-y-2 pl-4">
+                  <p class="text-extrabold">Address</p>
+                  <p>Plot 24, Oba Onigbanko Way, Amuwo Odofin, Lagos</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="">
+              <a
+                href="https://www.google.com/maps/place/Amuwo+Odofin+Estate,+Lagos/@6.477648,3.2904734,14z/data=!4m5!3m4!1s0x103b892def871c8b:0xb4250ab791be1ae7!8m2!3d6.4768936!4d3.3137121"
+                target="_blank"
+                class="flex"
+              >
+                <img
+                  style="color: #1da737"
+                  src="../assets/time.svg"
+                  alt="tel icon"
+                  class=""
+                />
+                <div class="space-y-2 pl-4">
+                  <p class="text-extrabold">Opening Hours</p>
+                  <p>Mon - Frid: 9:00AM - 5:00PM</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </div>
