@@ -417,8 +417,8 @@
               <img class="w-4 h-4" src="../assets/instagram.svg" alt="instagram" />
             </a>
           </div>
-          <div>
-            <img class="w-3 h-2" src="" alt="">
+          <div class="flex items-center space-x-2">
+            <img class="w-3 h-2" src="../assets/up.svg" alt="direction-top" />
             <p>Back to top</p>
           </div>
         </div>
