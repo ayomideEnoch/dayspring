@@ -1,6 +1,6 @@
 <template>
   <div class="w-full">
-    <section class="px-44 pt-6 flex justify-between">
+    <section id="top" class="px-44 pt-6 flex justify-between">
       <div class="text-xs flex space-x-3 justify-between">
         <div class="text-center">
           <a href="tel:+234 814 932 7275" class="flex">
@@ -46,16 +46,16 @@
           <p>- Fri: 9:00AM - 5:00PM</p>
         </div>
       </div>
-      <div class="space-x-3" style="color: #1da737">
+      <div class="flex space-x-7" style="color: #1da737">
         <a href="https://web.facebook.com" target="_blank"
-          ><span><i class="fab fa-facebook-f"></i></span
-        ></a>
+          ><img class="w-4 h-3.5" src="../assets/facebook.svg" alt="facebook" />
+        </a>
         <a href="https://twitter.com/" target="_blank"
-          ><span><i class="fab fa-twitter"></i></span
-        ></a>
-        <a href="https://www.instagram.com/" target="_blank"
-          ><span><i class="fab fa-instagram"></i></span
-        ></a>
+          ><img class="w-4 h-4" src="../assets/twitter.svg" alt="twitter" />
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img class="w-4 h-4" src="../assets/instagram.svg" alt="instagram" />
+        </a>
       </div>
     </section>
     <section class="px-44 flex justify-between items-center text-bold font-medium my-7">
@@ -314,7 +314,13 @@
     <section class="pt-10 px-44 mt-14 pb-10 bg-black text-white">
       <div class="w-full flex">
         <div class="w-2/3">
-          <img src="../assets/logo.svg" alt="footer logo" class="w-20 h-20 mb-6" />
+          <div>
+            <img src="../assets/logo.svg" alt="footer logo" class="w-36 h-36" />
+            <div class="ml-6 -mt-10">
+              <p style="font-size: 18px" class="font-extrabold">Dayspring</p>
+              <p class="mb-3" style="font-size: 8px">Capital Investments Limited</p>
+            </div>
+          </div>
           <p style="font-size: 15px" class="mb-6">
             Be the first to know! Subscribe to our mailing list to keep up with the latest
             news and offers.
@@ -417,9 +423,11 @@
               <img class="w-4 h-4" src="../assets/instagram.svg" alt="instagram" />
             </a>
           </div>
-          <div class="flex space-x-2">
-            <img class="w-3 h-2" src="../assets/up.svg" alt="direction-top" />
-            <p>Back to top</p>
+          <div class="">
+            <a href="/#top" class="flex space-x-2 items-center -mt-1">
+              <img class="w-3 h-2" src="../assets/up.svg" alt="direction-top" />
+              <p>Back to top</p>
+            </a>
           </div>
         </div>
       </div>
