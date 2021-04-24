@@ -312,13 +312,13 @@
       <div class="w-full flex">
         <div class="w-2/3">
           <img src="../assets/logo.svg" alt="footer logo" class="w-20 h-20" />
-          <p style="font-size: 15px my-24">
+          <p style="font-size: 15px my-48">
             Be the first to know! Subscribe to our mailing list to keep up with the latest
             news and offers.
           </p>
           <label for="email" class="" style="font-size: 15px">Email Address</label>
           <br />
-          <div class="flex space-x-5">
+          <div class="flex items-center space-x-5">
             <input
               type="email"
               placeholder="e.g johndoe@email.com"
@@ -326,7 +326,7 @@
             />
             <button
               style="background: #1da737"
-              class="text-white rounded-md py-2 px-7 text-xl font-semibold"
+              class="text-white rounded-md py-1 px-7 text-xl font-semibold"
             >
               Subscribe
             </button>
