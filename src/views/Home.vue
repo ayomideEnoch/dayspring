@@ -296,7 +296,7 @@
             <input
               type="text"
               placeholder="Write your message here"
-              class="pt-2 pb-14 rounded-xl focus:outline-none focus:ring focus:border-blue-300 mt-1"
+              class="px-56 pt-6 pb-14 rounded-xl focus:outline-none focus:ring focus:border-blue-300 mt-1 text-left"
             />
           </div>
 
