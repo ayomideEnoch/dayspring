@@ -236,7 +236,7 @@
         Thank you for your interest in Dayspring Capital. Please fill out the form below
         to ask your questions. We will get back to you within the shortest possible time.
       </p>
-      <div class="flex justify-between w-full">
+      <div class="flex justify-between w-full space-x-4">
         <div class="inset-0 object-cover w-1/3">
           <img
             class="w-80"
@@ -245,27 +245,56 @@
             alt="send message"
           />
         </div>
-        <div class="w-2/3">
-          <div class="">
-            <div class="flex">
-              <p><label for="fname" class="block" style="font-size:15px">First Name</label><br /></p>
-              <input type="text" placeholder="e.g John" />
-              <label for="sname" class="block">Second Name</label><br />
-              <input type="text" placeholder="e.g Doe" />
+        <div class="w-2/3 space-y-10">
+          <div class="w-full flex">
+            <div class="w-1/2">
+              <label for="fname" class="" style="font-size: 15px">First Name</label>
+              <br />
+              <input
+                type="text"
+                placeholder="e.g John"
+                class="px-14 py-2 rounded-xl focus:outline-none focus:ring focus:border-blue-300 mt-1"
+              />
+            </div>
+
+            <div class="w-1/2">
+              <label for="sname" class="" style="font-size: 15px">Second Name</label>
+              <br />
+              <input
+                type="text"
+                placeholder="e.g Doe"
+                class="px-14 py-2 rounded-xl focus:outline-none focus:ring focus:border-blue-300 mt-1"
+              />
             </div>
           </div>
-          <label for="email">Email Address</label>
-          <input type="email" />
-          <label for="p/no">Phone Number</label>
-          <input type="number" />
-          <label for="message">Message</label>
-          <input type="textarea" />
-          <button
+          <div class="w-full flex">
+            <div class="w-1/2">
+              <label for="email" class="" style="font-size: 15px">Email</label>
+              <br />
+              <input
+                type="email"
+                placeholder="e.g johndoe@email.com"
+                class="px-14 py-2 rounded-xl focus:outline-none focus:ring focus:border-blue-300 mt-1"
+              />
+            </div>
+
+            <div class="w-1/2">
+              <label for="p/number" class="" style="font-size: 15px">Phone Number</label>
+              <br />
+              <input
+                type="number"
+                placeholder="e.g 08023456789"
+                class="px-14 py-2 rounded-xl focus:outline-none focus:ring focus:border-blue-300 mt-1"
+              />
+            </div>
+          </div>
+
+          <!-- <button
             style="background: #1da737 font-size:15px"
             class="text-white rounded-md px-8 py-4 font-semibold"
           >
             Send Message
-          </button>
+          </button> -->
         </div>
       </div>
     </section>
