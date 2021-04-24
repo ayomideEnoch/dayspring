@@ -300,9 +300,9 @@
             />
           </div>
 
-          <button
-            style="font-size: 15px"
-            class="text-white rounded-md px-8 py-4 font-semibold"
+          <button 
+            style=" font-size:15px"
+            class="text-white rounded-md px-8 py-4 font-semibold bg-green-700"
           >
             Send Message
           </button>
