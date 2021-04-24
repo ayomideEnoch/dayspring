@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <section id="top" class="px-44 pt-6 flex justify-between">
-      <div class="text-xs flex space-x-3 justify-between">
+      <div style="font-size: 10px" class="flex space-x-3 justify-between">
         <div class="text-center">
           <a href="tel:+234 814 932 7275" class="flex">
             <img style="color: #1da737" src="../assets/tel.svg" alt="tel icon" />
