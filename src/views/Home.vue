@@ -1,93 +1,102 @@
 <template>
-  <div class="w-full">
-    <section id="top" class="px-44 pt-6 flex justify-between">
-      <div style="font-size: 10px" class="flex space-x-3 justify-between">
-        <div class="text-center">
-          <a href="tel:+234 814 932 7275" class="flex">
-            <img style="color: #1da737" src="../assets/tel.svg" alt="tel icon" />
-            <p>+234 814 932 7275, +234 810 950 7030</p>
-          </a>
-        </div>
-        <div class="text-center">
-          <a href="mailto:support@dayspring.com " class="flex items-center">
-            <img
-              style="color: #1da737"
-              src="../assets/mail.svg"
-              alt="tel icon"
-              class="pr-1"
-            />
-            <p>support@dayspring.com</p>
-          </a>
-        </div>
-        <div class="text-center">
-          <a
-            href="https://www.google.com/maps/place/Amuwo+Odofin+Estate,+Lagos/@6.477648,3.2904734,14z/data=!4m5!3m4!1s0x103b892def871c8b:0xb4250ab791be1ae7!8m2!3d6.4768936!4d3.3137121"
-            target="_blank"
-            class="pr-1"
-            ><div class="flex">
+  <div class="w-full overflow-y-auto h-full z-20 ">
+    <section class="z-30 font-medium">
+      <section id="top" class="z-30 px-44 pt-6 flex justify-between">
+        <div style="font-size: 10px" class="flex space-x-3 justify-between">
+          <div class="text-center">
+            <a href="tel:+234 814 932 7275" class="flex items-center">
               <img
                 style="color: #1da737"
-                src="../assets/location_on.svg"
+                src="../assets/tel.svg"
                 alt="tel icon"
-                class="pr-1"
+                class="pr-2"
               />
-              <p>Plot 24, Oba Onigbanko Way, Amuwo Odofin, Lagos</p>
-            </div></a
-          >
-        </div>
+              <p>+234 814 932 7275, +234 810 950 7030</p>
+            </a>
+          </div>
+          <div class="text-center">
+            <a href="mailto:support@dayspring.com " class="flex items-center">
+              <img
+                style="color: #1da737"
+                src="../assets/mail.svg"
+                alt="tel icon"
+                class="pr-2"
+              />
+              <p>support@dayspring.com</p>
+            </a>
+          </div>
+          <div class="text-center">
+            <a
+              href="https://www.google.com/maps/place/Amuwo+Odofin+Estate,+Lagos/@6.477648,3.2904734,14z/data=!4m5!3m4!1s0x103b892def871c8b:0xb4250ab791be1ae7!8m2!3d6.4768936!4d3.3137121"
+              target="_blank"
+              class="pr-2"
+              ><div class="flex">
+                <img
+                  style="color: #1da737"
+                  src="../assets/location_on.svg"
+                  alt="tel icon"
+                  class="pr-2"
+                />
+                <p>Plot 24, Oba Onigbanko Way, Amuwo Odofin, Lagos</p>
+              </div></a
+            >
+          </div>
 
-        <div class="flex">
-          <img
-            style="color: #1da737"
-            src="../assets/time.svg"
-            alt="tel icon"
-            class="w-4 h-4 pr-1"
-          />
-          <p>- Fri: 9:00AM - 5:00PM</p>
+          <div class="flex">
+            <img
+              style="color: #1da737"
+              src="../assets/time.svg"
+              alt="tel icon"
+              class="w-4 h-4 pr-2"
+            />
+            <p>Mon - Fri: 9:00AM - 5:00PM</p>
+          </div>
         </div>
-      </div>
-      <div class="flex space-x-7" style="color: #1da737">
-        <a href="https://web.facebook.com" target="_blank"
-          ><img class="w-4 h-3.5" src="../assets/facebook.svg" alt="facebook" />
-        </a>
-        <a href="https://twitter.com/" target="_blank"
-          ><img class="w-4 h-4" src="../assets/twitter.svg" alt="twitter" />
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-          <img class="w-4 h-4" src="../assets/instagram.svg" alt="instagram" />
-        </a>
-      </div>
-    </section>
-    <section class="px-44 flex justify-between items-center text-bold font-medium my-7">
-      <div><img class="w-20 h-20" src="../assets/logo.svg" alt="Dayspring Logo" /></div>
-      <div class="space-x-6">
-        <span class="text-green-700 cursor-pointer">Home</span>
+        <div class="flex space-x-8" style="color: #1da737">
+          <a href="https://web.facebook.com" target="_blank"
+            ><img class="w-4 h-3.5" src="../assets/facebook.svg" alt="facebook" />
+          </a>
+          <a href="https://twitter.com/" target="_blank"
+            ><img class="w-4 h-4" src="../assets/twitter.svg" alt="twitter" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img class="w-4 h-4" src="../assets/instagram.svg" alt="instagram" />
+          </a>
+        </div>
+      </section>
 
-        <span class="cursor-pointer">About Us</span>
-        <span class="cursor-pointer">Our Company</span>
-        <span class="cursor-pointer">Contact Us</span>
-      </div>
+      <section class="z-30 px-44 flex justify-between items-center font-semibold my-7">
+        <div><img class="w-20 h-20" src="../assets/logo.svg" alt="Dayspring Logo" /></div>
+        <div class="space-x-9 text-lg">
+          <span class="text-green-700 cursor-pointer">Home</span>
+
+          <span class="cursor-pointer">About Us</span>
+          <span class="cursor-pointer">Our Company</span>
+          <span class="cursor-pointer">Contact Us</span>
+        </div>
+      </section>
+      <section class="z-30 pt-28 px-44 w-full text-center space-y-9">
+        <p class="font-extrabold text-5xl">Your Timeless Financial Service Provider</p>
+        <p class="text-xl font-semibold">
+          We have provided over 300,000 loans to individuals and small businesses in
+          Nigeria
+        </p>
+        <button
+          style="background: #1da737"
+          class="text-white rounded-md py-3 px-9 text-lg font-semibold"
+        >
+          See Our Products
+        </button>
+      </section>
     </section>
-    <section class="pt-24 px-44 w-full text-center space-y-9">
-      <p class="font-extrabold text-5xl">Your Timeless Financial Service Provider</p>
-      <p class="text-xl font-semibold">
-        We have provided over 300,000 loans to individuals and small businesses in Nigeria
-      </p>
-      <button
-        style="background: #1da737"
-        class="text-white rounded-md py-4 px-9 text-xl font-semibold"
-      >
-        See Our Products
-      </button>
-    </section>
-    <section class="pt-32 px-44 w-full flex justify-between space-y-7 space-x-24">
-      <div class="space-y-6">
+    <section class="pt-24 px-44 w-full flex justify-between space-y-7 space-x-24">
+      <div class="space-y-6 font-medium">
         <p class="font-extrabold" style="font-size: 35px">About Us</p>
-        <p style="font-size: 15px">
+        <p style="font-size: 18px">
           Dayspring Capital is Nigeria’s fastest growing financial services provider. We
           do this through our website, social media pages and customer experience center.
         </p>
-        <p style="font-size: 15px">
+        <p style="font-size: 18px">
           What makes Dayspring Capital unique among the packs of other financial service
           provider is that we also make this service available to individuals who are
           small business owners as it’s our desire to energize the economy through these
@@ -95,7 +104,7 @@
         </p>
         <button
           style="background: #1da737"
-          class="text-white rounded-md py-4 px-7 text-xl font-semibold"
+          class="text-white rounded-md py-3 px-7 text-base font-semibold"
         >
           Read More
         </button>
@@ -111,11 +120,11 @@
       </div>
     </section>
     <section
-      class="pt-10 px-44 mt-24 mb-10 space-y-6 text-white"
+      class="font-normal pt-10 px-44 mt-24 mb-10 space-y-6 text-white"
       style="background: #1da737"
     >
       <p style="font-size: 35px" class="font-bold pt-16">Why Dayspring?</p>
-      <p style="font-size: 15px">
+      <p style="font-size: 18px">
         Our commitment is to meet our customer’s needs and hand over an unforgettable
         financial service experience within the under listed parameters
       </p>
@@ -150,9 +159,9 @@
       <div>
         <p style="font-size: 35px" class="font-bold mb-2">Our Products</p>
         <div class="md:flex block space-x-4">
-          <div class="w-3/5">
+          <div class="w-3/5 mr-7">
             <img src="../assets/dayspring-credit.svg" alt="dayspring credit" />
-            <p style="font-size: 15px">
+            <p style="font-size: 18px" class="pt-8 font-normal">
               Dayspring Credit is our platform where we give financial credit to
               Individuals and groups for their financial needs. For this we also target
               credit worthy salary earners who can access this facility. This is available
@@ -163,13 +172,16 @@
             </p>
             <button
               style="background: #1da737"
-              class="text-white rounded-md py-4 px-7 text-xl font-semibold"
+              class="text-white mt-8 rounded-md py-3 px-7 text-base font-semibold"
             >
               Read More
             </button>
           </div>
-          <div class="w-2/5 text-base rounded-md ml-3 py-3" style="font-size: 15px">
-            <div class="pl-4 space-y-3">
+          <div
+            class="w-2/5 text-base font-normal rounded-3xl ml-3 py-3 border border-gray-400"
+            style="font-size: 18px"
+          >
+            <div class="px-4">
               <p class="flex text-green-700">
                 <img
                   src="../assets//bullet.svg"
@@ -177,15 +189,21 @@
                   class="pr-4"
                 />Dayspring Credit
               </p>
-              <p>Dayspring Asset Financing</p>
-              <p>Dayspring Market Money</p>
-              <p>Dayspring Asset Management</p>
-              <p>Dayspring Equipment Leasing</p>
-              <p>Our Foreign Exchange Services</p>
-              <p>FX Brokerage & Transfer</p>
-              <p>Cash Delivery</p>
-              <p>Business Consultancy Services</p>
-              <p>Investment Management</p>
+              <p class="border-b border-gray-400 py-2 pt-3">Dayspring Asset Financing</p>
+              <p class="border-b border-gray-400 py-2 pt-3">Dayspring Market Money</p>
+              <p class="border-b border-gray-400 py-2 pt-3">Dayspring Asset Management</p>
+              <p class="border-b border-gray-400 py-2 pt-3">
+                Dayspring Equipment Leasing
+              </p>
+              <p class="border-b border-gray-400 py-2 pt-3">
+                Our Foreign Exchange Services
+              </p>
+              <p class="border-b border-gray-400 py-2 pt-3">FX Brokerage & Transfer</p>
+              <p class="border-b border-gray-400 py-2 pt-3">Cash Delivery</p>
+              <p class="border-b border-gray-400 py-2 pt-3">
+                Business Consultancy Services
+              </p>
+              <p class="py-2 pt-3">Investment Management</p>
             </div>
           </div>
         </div>
@@ -253,11 +271,7 @@
             <div class="w-1/2">
               <label for="fname" class="" style="font-size: 15px">First Name</label>
               <br />
-              <input
-                type="text"
-                placeholder="e.g John"
-                class="px-14 py-2 rounded-xl focus:outline-none focus:ring focus:border-blue-300 mt-1"
-              />
+              <input type="text" class="rounded-xl" placeholder="e.g John" />
             </div>
 
             <div class="w-1/2">
