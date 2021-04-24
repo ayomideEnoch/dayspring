@@ -401,7 +401,7 @@
         </div>
       </div>
       <hr class="my-10" />
-      <div class="flex w-full" style="font-size: 15px">
+      <div class="flex w-full items-center" style="font-size: 15px">
         <div class="w-2/3">
           <p>&#64;2021 Dayspring Capital RC 1640535. All rights reserved.</p>
         </div>
@@ -417,7 +417,7 @@
               <img class="w-4 h-4" src="../assets/instagram.svg" alt="instagram" />
             </a>
           </div>
-          <div class="flex items-center space-x-2">
+          <div class="flex space-x-2">
             <img class="w-3 h-2" src="../assets/up.svg" alt="direction-top" />
             <p>Back to top</p>
           </div>
