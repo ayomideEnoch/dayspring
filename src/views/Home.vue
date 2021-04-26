@@ -270,35 +270,37 @@
           <div class="w-2/3 space-y-10">
             <div class="w-full flex space-x-4">
               <div class="w-1/2">
-                  <label for="fname" class="" style="font-size: 15px">First Name</label>
-                  <br />
-                  <input type="text" class="rounded-xl w-full" placeholder="e.g John" />
-                </div>
+                <label for="fname" class="" style="font-size: 15px">First Name</label>
+                <br />
+                <input type="text" class="rounded-xl w-full" placeholder="e.g John" />
+              </div>
 
               <div class="w-1/2">
-                  <label for="sname" class="" style="font-size: 15px">Second Name</label>
-                  <br />
-                  <input type="text" class="rounded-xl w-full" placeholder="e.g Doe" />
-                </div>
+                <label for="sname" class="" style="font-size: 15px">Second Name</label>
+                <br />
+                <input type="text" class="rounded-xl w-full" placeholder="e.g Doe" />
+              </div>
             </div>
 
             <div class="w-full flex space-x-4">
               <div class="w-1/2">
-                  <label for="email" class="" style="font-size: 15px"
-                    >Email Address</label
-                  >
-                  <br />
-                  <input
-                    type="text"
-                    class="rounded-xl w-full"
-                    placeholder="e.g johndoe@email.com"
-                  />
+                <label for="email" class="" style="font-size: 15px">Email Address</label>
+                <br />
+                <input
+                  type="text"
+                  class="rounded-xl w-full"
+                  placeholder="e.g johndoe@email.com"
+                />
               </div>
               <div class="w-1/2">
-                  <label for="fname" class="" style="font-size: 15px">Phone Number</label>
-                  <br />
-                  <input type="text" class="rounded-xl w-full" placeholder="e.g 08023456789" />
-                </div>
+                <label for="fname" class="" style="font-size: 15px">Phone Number</label>
+                <br />
+                <input
+                  type="text"
+                  class="rounded-xl w-full"
+                  placeholder="e.g 08023456789"
+                />
+              </div>
             </div>
 
             <div class="w-full">
@@ -309,10 +311,10 @@
               </textarea>
             </div>
             <button
-              style="background: #1da737"
-              class="text-white rounded-md py-4 px-7 text-xl font-semibold"
+              style="background: #F0C603"
+              class="rounded-md py-4 px-7 text-xl font-semibold"
             >
-              Read More
+              Send Message
             </button>
           </div>
         </div>
