@@ -1,7 +1,10 @@
 <template>
-  <div class="w-full overflow-y-auto h-full z-20">
-    <section class="z-30 font-medium">
-      <section id="top" class="z-30 px-44 pt-6 flex justify-between">
+  <div class="relative z-10 w-full overflow-y-auto h-full">
+    <div class="z-0 absolute pointer-events-none">
+      <img src="../assets/gradient-bg.png" alt="" />
+    </div>
+    <section class="font-medium">
+      <section id="top" class="px-44 pt-6 flex justify-between">
         <div style="font-size: 10px" class="flex space-x-3 justify-between">
           <div class="text-center">
             <a href="tel:+234 814 932 7275" class="flex items-center">
@@ -311,7 +314,7 @@
               </textarea>
             </div>
             <button
-              style="background: #F0C603"
+              style="background: #f0c603"
               class="rounded-md py-4 px-7 text-xl font-semibold"
             >
               Send Message
