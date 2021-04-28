@@ -3,9 +3,9 @@
     <div class="z-0 absolute pointer-events-none">
       <img src="../assets/gradient-bg.png" alt="" />
     </div>
-    <section class="font-medium">
-      <section id="top" class="px-44 pt-6 flex justify-between">
-        <div style="font-size: 10px" class="flex space-x-3 justify-between">
+    <section class="px-10 lg:px-44 pt-6 font-medium">
+      <section id="top" class="flex justify-between md:small-font smallest-font">
+        <div class="flex space-x-1 lg:space-x-3 justify-between">
           <div class="text-center">
             <a href="tel:+234 814 932 7275" class="flex items-center">
               <img
@@ -68,17 +68,24 @@
         </div>
       </section>
 
-      <section class="z-30 px-44 flex justify-between items-center font-semibold my-7">
+      <section class="z-30 flex justify-between items-center font-semibold my-7">
         <div><img class="w-20 h-20" src="../assets/logo.svg" alt="Dayspring Logo" /></div>
         <div class="space-x-9 text-lg">
-          <span class="text-green-700 cursor-pointer">Home</span>
-
-          <span class="cursor-pointer">About Us</span>
-          <span class="cursor-pointer">Our Company</span>
-          <span class="cursor-pointer">Contact Us</span>
+          <router-link :to="{ path: '/' }"
+            ><span class="cursor-pointer">Home</span></router-link
+          >
+          <router-link :to="{ name: 'AboutUs' }"
+            ><span class="cursor-pointer">About Us</span></router-link
+          >
+          <router-link :to="{ name: 'OurProducts' }"
+            ><span class="cursor-pointer">Our Products</span></router-link
+          >
+          <router-link :to="{ name: 'ContactUs' }"
+            ><span class="cursor-pointer">Contact Us</span></router-link
+          >
         </div>
       </section>
-      <section class="z-30 pt-28 px-44 w-full text-center space-y-9">
+      <section class="z-30 pt-28 w-full text-center space-y-9">
         <p class="font-extrabold text-5xl">Your Timeless Financial Service Provider</p>
         <p class="text-xl font-semibold">
           We have provided over 300,000 loans to individuals and small businesses in
@@ -92,7 +99,9 @@
         </button>
       </section>
     </section>
-    <section class="pt-24 px-44 w-full flex justify-between space-y-7 space-x-24">
+    <section
+      class="pt-24 px-10 lg:px-44 w-full flex justify-between space-y-7 space-x-24"
+    >
       <div class="space-y-6 font-medium">
         <p class="font-extrabold" style="font-size: 35px">About Us</p>
         <p style="font-size: 18px">
@@ -123,7 +132,7 @@
       </div>
     </section>
     <section
-      class="font-normal pt-10 px-44 mt-24 mb-10 space-y-6 text-white"
+      class="font-normal pt-10 px-10 lg:px-44 mt-24 mb-10 space-y-6 text-white"
       style="background: #1da737"
     >
       <p style="font-size: 35px" class="font-bold pt-16">Why Dayspring?</p>
@@ -158,7 +167,7 @@
         </div>
       </div>
     </section>
-    <section class="pt-10 px-44 mt-14 mb-10 space-y-6 text-black">
+    <section class="pt-10 px-10 lg:px-44 mt-14 mb-10 space-y-6 text-black">
       <div>
         <p style="font-size: 35px" class="font-bold mb-2">Our Products</p>
         <div class="md:flex block space-x-4">
@@ -213,12 +222,12 @@
       </div>
     </section>
     <section
-      class="pt-10 px-44 mt-24 mb-10 space-y-6 text-white"
+      class="pt-10 px-10 lg:px-44 mt-24 mb-10 space-y-6 text-white"
       style="background: #1da737"
     >
       <p class="text-4xl font-extrabold">What Our Client's Say</p>
       <p style="font-size: 15px">Dont worry, you're in good hands.</p>
-      <div class="md:flex block md:space-x-12 space-x-0 pb-10">
+      <div class="md:flex block px-10 lg:px-44 md:space-x-12 space-x-0 pb-10">
         <div class="w-1/2 space-y-3">
           <div class="flex items-center -space-x-20">
             <div class="h-28 w-24">
@@ -254,7 +263,7 @@
         </div>
       </div>
     </section>
-    <section class="pt-10 px-44 mt-14 mb-10 space-y-6">
+    <section class="pt-10 px-10 lg:px-44 mt-14 mb-10 space-y-6">
       <p class="text-4xl font-bold">Send Us A Message</p>
       <p style="font-size: 15px">
         Thank you for your interest in Dayspring Capital. Please fill out the form below
@@ -323,7 +332,7 @@
         </div>
       </div>
     </section>
-    <section class="pt-10 px-44 mt-14 pb-10 bg-black text-white">
+    <section class="pt-10 px-10 lg:px-44 mt-14 pb-10 bg-black text-white">
       <div class="w-full flex">
         <div class="w-2/3">
           <div>
@@ -449,4 +458,8 @@
 
 <script></script>
 
-<style></style>
+<style>
+.small-font {
+  font-size: 10px;
+}
+</style>
