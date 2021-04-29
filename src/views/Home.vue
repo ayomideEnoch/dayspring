@@ -22,42 +22,21 @@
         class="w-1/5 cursor-pointer pt-10 pr-6 text-right text-2xl"
       >
         <router-link :to="{ path: '/' }"
-          ><span class="cursor-pointer">Home</span><i class="far fa-times"></i
+          ><span class="cursor-pointer"></span><i class="far fa-times"></i
         ></router-link>
       </div>
 
       <div
         class="bg-white w-4/5 h-screen z-20 fixed right-2 top-2 text-xl pt-8"
-      style="color: #4fb34a"
-
+        style="color: #4fb34a"
       >
         <!--  -->
-          <div class="pl-6">
-            <a href="/#portfolio"
-              ><button
-                @click="mobileMenu = false"
-                class="block font-bold focus:outline-none"
-              >
-                PORTFOLIO
-              </button></a
-            >
-            <a href="/#contact"
-              ><button
-                @click="mobileMenu = false"
-                class="block font-bold focus:outline-none my-12"
-              >
-                CONTACT
-              </button></a
-            >
-            <a href="/#about"
-              ><button
-                @click="mobileMenu = false"
-                class="block font-bold focus:outline-none"
-              >
-                ABOUT
-              </button></a
-            >
-          </div>
+        <div class="pl-6">
+          <p><router-link :to="{ path: '/' }">HOME</router-link></p>
+          <p><router-link :to="{ path: '/aboutUs' }">ABOUT US</router-link></p>
+          <p><router-link :to="{ path: '/ourProducts' }">OUR PRODUCTS</router-link></p>
+          <p><router-link :to="{ path: '/contactUs' }">CONTACT US</router-link></p>
+        </div>
       </div>
     </div>
     <section class="px-10 lg:px-44 pt-6 font-medium">
