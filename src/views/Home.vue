@@ -3,21 +3,62 @@
     <div class="z-0 absolute pointer-events-none opacity-50">
       <img src="../assets/gradient-bg.png" alt="" />
     </div>
-<!-- Hamburger for Small Screens -->
+    <!-- Hamburger for Small Screens -->
 
-    <div @click="mobileMenu = true" class="block sm:hidden text-3xl cursor-pointer">
+    <div
+      @click="mobileMenu = true"
+      class="block sm:hidden text-3xl cursor-pointer fixed right-16 top-20"
+      style="color: #4fb34a"
+    >
       <i class="far fa-bars"></i>
     </div>
-    <div v-if="mobileMenu" class="bg-green-500 z-10 fixed inset-0 w-full h-screen">
-<div @click="mobileMenu =false" class="w-1/5 cursor-pointer pt-10 pr-6 text-right text-2xl">
-<router-link :to="{ path: '/' }"
-            ><span class="cursor-pointer">Home</span></router-link
-          >
-</div>
+    <div
+      v-if="mobileMenu"
+      class="z-10 fixed inset-0 w-full h-screen text-white"
+      style="background-color: #4fb34a"
+    >
+      <div
+        @click="mobileMenu = false"
+        class="w-1/5 cursor-pointer pt-10 pr-6 text-right text-2xl"
+      >
+        <router-link :to="{ path: '/' }"
+          ><span class="cursor-pointer">Home</span><i class="far fa-times"></i
+        ></router-link>
+      </div>
 
-<div
-          class="bg-white text-black w-4/5 h-screen z-20 fixed right-2 top-2 text-xl pt-8"
-        ></div>
+      <div
+        class="bg-white w-4/5 h-screen z-20 fixed right-2 top-2 text-xl pt-8"
+      style="color: #4fb34a"
+
+      >
+        <!--  -->
+          <div class="pl-6">
+            <a href="/#portfolio"
+              ><button
+                @click="mobileMenu = false"
+                class="block font-bold focus:outline-none"
+              >
+                PORTFOLIO
+              </button></a
+            >
+            <a href="/#contact"
+              ><button
+                @click="mobileMenu = false"
+                class="block font-bold focus:outline-none my-12"
+              >
+                CONTACT
+              </button></a
+            >
+            <a href="/#about"
+              ><button
+                @click="mobileMenu = false"
+                class="block font-bold focus:outline-none"
+              >
+                ABOUT
+              </button></a
+            >
+          </div>
+      </div>
     </div>
     <section class="px-10 lg:px-44 pt-6 font-medium">
       <section id="top" class="flex justify-between" style="font-size: 10px">
