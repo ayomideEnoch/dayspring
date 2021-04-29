@@ -3,9 +3,7 @@
     <div class="z-0 absolute pointer-events-none opacity-50">
       <img src="../assets/gradient-bg.png" alt="" />
     </div>
-    <div @click="mobileMenu = true">
-
-    </div>
+    <div @click="mobileMenu = true"></div>
     <section class="px-10 lg:px-44 pt-6 font-medium">
       <section id="top" class="flex justify-between" style="font-size: 10px">
         <div class="flex space-x-1 lg:space-x-3 justify-between">
@@ -519,8 +517,11 @@
 <script>
 export default {
   data(){
-    mobileMenu: false,
-  }
+    return {
+
+      mobileMenu: false,
+    }
+  },
 }
 </script>
 
