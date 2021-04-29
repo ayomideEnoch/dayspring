@@ -19,7 +19,7 @@
     >
       <div
         @click="mobileMenu = false"
-        class="w-1/5 cursor-pointer fixed left-16 top-20 text-2xl"
+        class="w-1/5 cursor-pointer fixed left-14 top-20 text-2xl"
       >
         <router-link :to="{ path: '/' }"
           ><span class="cursor-pointer"></span><i class="far fa-times"></i
@@ -27,7 +27,7 @@
       </div>
 
       <div
-        class="bg-white w-4/5 h-screen z-20 fixed right-2 top-2 pt-16 mt-3 font-bold text-3xl "
+        class="bg-white w-4/5 h-screen z-20 fixed right-2 top-2 pt-16 mt-2.5 font-bold text-3xl"
         style="color: #4fb34a"
       >
         <!--  -->
@@ -163,7 +163,7 @@
 
       <section class="z-30 flex justify-between items-center font-semibold my-7">
         <div><img class="w-20 h-20" src="../assets/logo.svg" alt="Dayspring Logo" /></div>
-        <div class="space-x-9 text-lg">
+        <div class="space-x-9 text-lg sm:flex hidden">
           <router-link :to="{ path: '/' }"
             ><span class="cursor-pointer">Home</span></router-link
           >
