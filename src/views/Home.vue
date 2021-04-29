@@ -7,7 +7,7 @@
 
     <div
       @click="mobileMenu = true"
-      class="block sm:hidden text-3xl cursor-pointer fixed right-16 top-20"
+      class="block sm:hidden text-3xl cursor-pointer absolute right-16 top-20"
       style="color: #4fb34a"
     >
       <i class="far fa-bars"></i>
@@ -162,7 +162,12 @@
       </section>
 
       <section class="z-30 flex justify-between items-center font-semibold my-7">
-        <div><img class="w-20 h-20" src="../assets/logo.svg" alt="Dayspring Logo" /></div>
+        <div>
+          <router-link :to="{path: '/'}">
+
+          <img class="w-20 h-20" src="../assets/logo.svg" alt="Dayspring Logo" />
+          </router-link>
+          </div>
         <div class="space-x-9 text-lg sm:flex hidden">
           <router-link :to="{ path: '/' }"
             ><span class="cursor-pointer">Home</span></router-link
