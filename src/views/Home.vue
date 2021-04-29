@@ -415,7 +415,7 @@
             <div class="w-full">
               <label for="message" class="" style="font-size: 15px">Message</label>
               <br />
-              <textarea name="message" id="" cols="85" rows="10" class="rounded-xl">
+              <textarea name="message" id="" md:cols="85" cols="60" rows="10" class="rounded-xl">
                 Write your message here
               </textarea>
             </div>
