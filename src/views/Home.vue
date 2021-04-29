@@ -19,7 +19,7 @@
     >
       <div
         @click="mobileMenu = false"
-        class="w-1/5 cursor-pointer pt-10 pr-6 text-right text-2xl"
+        class="w-1/5 cursor-pointer fixed left-16 top-20 text-2xl"
       >
         <router-link :to="{ path: '/' }"
           ><span class="cursor-pointer"></span><i class="far fa-times"></i
@@ -27,11 +27,11 @@
       </div>
 
       <div
-        class="bg-white w-4/5 h-screen z-20 fixed right-2 top-2 text-xl pt-8"
+        class="bg-white w-4/5 h-screen z-20 fixed right-2 top-2 pt-16 mt-3 font-bold text-3xl "
         style="color: #4fb34a"
       >
         <!--  -->
-        <div class="pl-6">
+        <div class="text-center space-y-12">
           <p><router-link :to="{ path: '/' }">HOME</router-link></p>
           <p><router-link :to="{ path: '/aboutUs' }">ABOUT US</router-link></p>
           <p><router-link :to="{ path: '/ourProducts' }">OUR PRODUCTS</router-link></p>
