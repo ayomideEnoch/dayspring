@@ -402,7 +402,7 @@
                 />
               </div>
               <div class="w-1/2">
-                <label for="fname" class="" style="font-size: 15px">Phone Number</label>
+                <label for="p/no" class="" style="font-size: 15px">Phone Number</label>
                 <br />
                 <input
                   type="text"
@@ -415,7 +415,7 @@
             <div class="w-full">
               <label for="message" class="" style="font-size: 15px">Message</label>
               <br />
-              <textarea name="message" id="" cols="90" rows="10" class="rounded-xl">
+              <textarea name="message" id="" cols="85" rows="10" class="rounded-xl">
                 Write your message here
               </textarea>
             </div>
