@@ -3,7 +3,22 @@
     <div class="z-0 absolute pointer-events-none opacity-50">
       <img src="../assets/gradient-bg.png" alt="" />
     </div>
-    <div @click="mobileMenu = true"></div>
+<!-- Hamburger for Small Screens -->
+
+    <div @click="mobileMenu = true" class="block sm:hidden text-3xl cursor-pointer">
+      <i class="far fa-bars"></i>
+    </div>
+    <div v-if="mobileMenu" class="bg-green-500 z-10 fixed inset-0 w-full h-screen">
+<div @click="mobileMenu =false" class="w-1/5 cursor-pointer pt-10 pr-6 text-right text-2xl">
+<router-link :to="{ path: '/' }"
+            ><span class="cursor-pointer">Home</span></router-link
+          >
+</div>
+
+<div
+          class="bg-white text-black w-4/5 h-screen z-20 fixed right-2 top-2 text-xl pt-8"
+        ></div>
+    </div>
     <section class="px-10 lg:px-44 pt-6 font-medium">
       <section id="top" class="flex justify-between" style="font-size: 10px">
         <div class="flex space-x-1 lg:space-x-3 justify-between">
@@ -516,13 +531,12 @@
 
 <script>
 export default {
-  data(){
+  data() {
     return {
-
       mobileMenu: false,
-    }
+    };
   },
-}
+};
 </script>
 
 <style>
