@@ -6,7 +6,7 @@
     <!-- Hamburger for Small Screens -->
 
     <div
-      @click="mobileMenu = true"
+      @click="mobileMenu = !mobileMenu"
       class="block sm:hidden text-3xl cursor-pointer absolute right-16 top-20"
       style="color: #4fb34a"
     >
@@ -14,28 +14,27 @@
     </div>
     <div
       v-if="mobileMenu"
-      class="z-10 fixed inset-0 w-full h-screen text-white"
-      style="background-color: #4fb34a"
+      @click="mobileMenu = !mobileMenu"
+      class="z-20 fixed inset-0 w-full h-screen"
     >
       <div
-        @click="mobileMenu = false"
-        class="w-1/5 cursor-pointer fixed left-12 top-20 text-2xl"
-      >
-        <router-link :to="{ path: '/' }"
-          ><span class="cursor-pointer"></span><i class="far fa-times"></i
-        ></router-link>
-      </div>
-
-      <div
-        class="bg-white w-4/5 h-screen z-20 fixed right-2 top-2 pt-16 mt-2.5 font-bold text-3xl"
+        class="bg-white z-30 fixed right-14 top-32 font-medium text-lg rounded-lg"
         style="color: #4fb34a"
       >
         <!--  -->
-        <div class="text-center space-y-12">
-          <p><router-link :to="{ path: '/' }">HOME</router-link></p>
-          <p><router-link :to="{ path: '/aboutUs' }">ABOUT US</router-link></p>
-          <p><router-link :to="{ path: '/ourProducts' }">OUR PRODUCTS</router-link></p>
-          <p><router-link :to="{ path: '/contactUs' }">CONTACT US</router-link></p>
+        <div class="text-center space-y-2 p-4">
+          <p>
+            <router-link :to="{ path: '/' }">HOME</router-link>
+          </p>
+          <p>
+            <router-link :to="{ path: '/aboutUs' }">ABOUT US</router-link>
+          </p>
+          <p>
+            <router-link :to="{ path: '/ourProducts' }">OUR PRODUCTS</router-link>
+          </p>
+          <p>
+            <router-link :to="{ path: '/contactUs' }">CONTACT US</router-link>
+          </p>
         </div>
       </div>
     </div>
@@ -197,7 +196,7 @@
       </section>
     </section>
     <section
-      class="pt-24 px-10 lg:px-44 w-full flex justify-between space-y-7 space-x-24"
+      class="pt-24 px-10 lg:px-44 w-full sm:flex block justify-between space-y-7 sm:space-x-24 space-x-0"
     >
       <div class="space-y-6 font-medium">
         <p class="font-extrabold" style="font-size: 35px">About Us</p>
@@ -218,7 +217,7 @@
           Read More
         </button>
       </div>
-      <div class="">
+      <div class="flex justify-center">
         <div class="w-72 h-64">
           <img
             class="w-full h-full inset-0 object-cover rounded-lg"
@@ -237,7 +236,7 @@
         Our commitment is to meet our customer’s needs and hand over an unforgettable
         financial service experience within the under listed parameters
       </p>
-      <div class="md:flex justify-between block space-x-8 pb-20">
+      <div class="sm:flex justify-between block sm:space-x-8 space-x-0 space-y-4 pb-20">
         <div class="space-y-2">
           <img class="w-7 h-5" src="../assets/payment.svg" alt="Payment" />
           <p class="font-bold" style="font-size: 20px">Flexible Repayment</p>
@@ -267,8 +266,8 @@
     <section class="pt-10 px-10 lg:px-44 mt-14 mb-10 space-y-6 text-black">
       <div>
         <p style="font-size: 35px" class="font-bold mb-2">Our Products</p>
-        <div class="md:flex block space-x-4">
-          <div class="w-3/5 mr-7">
+        <div class="sm:flex block sm:space-x-4 space-x-0">
+          <div class="sm:w-3/5 w-full mr-7">
             <img src="../assets/dayspring-credit.svg" alt="dayspring credit" />
             <p style="font-size: 18px" class="pt-8 font-normal">
               Dayspring Credit is our platform where we give financial credit to
@@ -287,7 +286,7 @@
             </button>
           </div>
           <div
-            class="w-2/5 text-base font-normal rounded-3xl ml-3 py-3 border border-gray-400"
+            class="sm:w-2/5 w-full text-base font-normal rounded-3xl ml-3 mt-8 py-3 border border-gray-400"
             style="font-size: 18px"
           >
             <div class="px-4">
@@ -324,8 +323,8 @@
     >
       <p class="text-4xl font-extrabold">What Our Client's Say</p>
       <p style="font-size: 15px">Dont worry, you're in good hands.</p>
-      <div class="md:flex block px-10 lg:px-44 md:space-x-12 space-x-0 pb-10">
-        <div class="w-1/2 space-y-3">
+      <div class="sm:flex block sm:space-x-12 space-x-0 pb-10">
+        <div class="sm:w-1/2 w-full space-y-3">
           <div class="flex items-center -space-x-20">
             <div class="h-28 w-24">
               <img src="../assets/effect.svg" alt="effect" class="w-full h-full" />
@@ -341,7 +340,7 @@
           <p style="font-size: 15px" class="font-bold">Paul Oyebanjo</p>
           <p style="font-size: 15px">Sound Engineer</p>
         </div>
-        <div class="w-1/2 space-y-3">
+        <div class="sm:w-1/2 w-full space-y-3 sm:mt-0 mt-8">
           <div class="flex items-center -space-x-20">
             <div class="h-28 w-24">
               <img src="../assets/effect.svg" alt="effect" class="w-full h-full" />
@@ -367,16 +366,16 @@
         to ask your questions. We will get back to you within the shortest possible time.
       </p>
       <div class="flex justify-between w-full">
-        <div class="w-full flex space-x-12">
-          <div class="inset-0 object-cover w-1/3">
+        <div class="w-full flex sm:space-x-12 space-x-0">
+          <div class="w-1/3 sm:block hidden">
             <img
-              class="w-80"
+              class="w-80 inset-0 object-cover rounded-2xl"
               style="height: 524px"
               src="../assets/message.svg"
               alt="send message"
             />
           </div>
-          <div class="w-2/3 space-y-10">
+          <div class="sm:w-2/3 w-full space-y-10">
             <div class="w-full flex space-x-4">
               <div class="w-1/2">
                 <label for="fname" class="" style="font-size: 15px">First Name</label>
@@ -415,8 +414,15 @@
             <div class="w-full">
               <label for="message" class="" style="font-size: 15px">Message</label>
               <br />
-              <textarea name="message" id="" md:cols="85" cols="60" rows="10" class="rounded-xl">
-                Write your message here
+              <textarea
+                name="message"
+                id=""
+                md:cols="85"
+                cols="60"
+                rows="10"
+                placeholder="Write your message here"
+                class="rounded-xl w-full"
+              >
               </textarea>
             </div>
             <button
