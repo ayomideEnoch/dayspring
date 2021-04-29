@@ -1,13 +1,16 @@
 <template>
   <div class="relative z-10 w-full overflow-y-auto h-full">
-    <div class="z-0 absolute pointer-events-none">
+    <div class="z-0 absolute pointer-events-none opacity-50">
       <img src="../assets/gradient-bg.png" alt="" />
+    </div>
+    <div @click="mobileMenu = true">
+
     </div>
     <section class="px-10 lg:px-44 pt-6 font-medium">
       <section id="top" class="flex justify-between" style="font-size: 10px">
-        <div class="md:flex block space-x-1 lg:space-x-3 justify-between">
-          <div class="text-center">
-            <!-- For Smaller Screens -->
+        <div class="flex space-x-1 lg:space-x-3 justify-between">
+          <!-- For Smaller Screens -->
+          <div class="flex justify-between items-center space-x-5">
             <a href="tel:+234 814 932 7275" class="sm:hidden">
               <vs-tooltip bottom>
                 <img
@@ -61,7 +64,6 @@
                 <template #tooltip> Mon - Fri: 9:00AM - 5:00PM</template>
               </vs-tooltip>
             </div>
-
 
             <!-- For Larger Screens -->
 
@@ -514,10 +516,16 @@
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  data(){
+    mobileMenu: false,
+  }
+}
+</script>
 
 <style>
-.small-font {
+/* .small-font {
   font-size: 10px;
-}
+} */
 </style>
