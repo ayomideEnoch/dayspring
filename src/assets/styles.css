@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 @layer base {
-        smallFont {
-            'fontSize': '10px', 
+    small-font {
+        'font-size': '10px', 
     }
 }

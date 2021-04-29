@@ -4,10 +4,68 @@
       <img src="../assets/gradient-bg.png" alt="" />
     </div>
     <section class="px-10 lg:px-44 pt-6 font-medium">
-      <section id="top" class="flex justify-between md:small-font smallest-font">
-        <div class="flex space-x-1 lg:space-x-3 justify-between">
+      <section id="top" class="flex justify-between" style="font-size: 10px">
+        <div class="md:flex block space-x-1 lg:space-x-3 justify-between">
           <div class="text-center">
-            <a href="tel:+234 814 932 7275" class="flex items-center">
+            <!-- For Smaller Screens -->
+            <a href="tel:+234 814 932 7275" class="sm:hidden">
+              <vs-tooltip bottom>
+                <img
+                  style="color: #1da737"
+                  src="../assets/tel.svg"
+                  alt="tel icon"
+                  class="pr-2"
+                />
+                <template #tooltip> +234 814 932 7275, +234 810 950 7030 </template>
+              </vs-tooltip>
+            </a>
+
+            <a href="mailto:support@dayspring.com" class="sm:hidden">
+              <vs-tooltip bottom>
+                <img
+                  style="color: #1da737"
+                  src="../assets/mail.svg"
+                  alt="tel icon"
+                  class="pr-2"
+                />
+                <template #tooltip> support@dayspring.com</template>
+              </vs-tooltip>
+            </a>
+
+            <a
+              href="https://www.google.com/maps/place/Amuwo+Odofin+Estate,+Lagos/@6.477648,3.2904734,14z/data=!4m5!3m4!1s0x103b892def871c8b:0xb4250ab791be1ae7!8m2!3d6.4768936!4d3.3137121"
+              target="_blank"
+              class="sm:hidden"
+            >
+              <vs-tooltip bottom>
+                <img
+                  style="color: #1da737"
+                  src="../assets/location_on.svg"
+                  alt="tel icon"
+                  class="pr-2"
+                />
+                <template #tooltip>
+                  Plot 24, Oba Onigbanko Way, Amuwo Odofin, Lagos</template
+                >
+              </vs-tooltip>
+            </a>
+
+            <div class="sm:hidden">
+              <vs-tooltip bottom>
+                <img
+                  style="color: #1da737"
+                  src="../assets/time.svg"
+                  alt="tel icon"
+                  class="pr-2"
+                />
+                <template #tooltip> Mon - Fri: 9:00AM - 5:00PM</template>
+              </vs-tooltip>
+            </div>
+
+
+            <!-- For Larger Screens -->
+
+            <a href="tel:+234 814 932 7275" class="sm:flex items-center hidden">
               <img
                 style="color: #1da737"
                 src="../assets/tel.svg"
@@ -18,7 +76,7 @@
             </a>
           </div>
           <div class="text-center">
-            <a href="mailto:support@dayspring.com " class="flex items-center">
+            <a href="mailto:support@dayspring.com " class="sm:flex items-center hidden">
               <img
                 style="color: #1da737"
                 src="../assets/mail.svg"
@@ -32,25 +90,25 @@
             <a
               href="https://www.google.com/maps/place/Amuwo+Odofin+Estate,+Lagos/@6.477648,3.2904734,14z/data=!4m5!3m4!1s0x103b892def871c8b:0xb4250ab791be1ae7!8m2!3d6.4768936!4d3.3137121"
               target="_blank"
-              class="pr-2"
+              class="sm:flex items-center hidden"
               ><div class="flex">
                 <img
                   style="color: #1da737"
                   src="../assets/location_on.svg"
                   alt="tel icon"
-                  class="pr-2"
+                  class="pr-2 flex justify-start"
                 />
                 <p>Plot 24, Oba Onigbanko Way, Amuwo Odofin, Lagos</p>
               </div></a
             >
           </div>
 
-          <div class="flex">
+          <div class="sm:flex items-center hidden">
             <img
               style="color: #1da737"
               src="../assets/time.svg"
               alt="tel icon"
-              class="w-4 h-4 pr-2"
+              class="pr-2"
             />
             <p>Mon - Fri: 9:00AM - 5:00PM</p>
           </div>

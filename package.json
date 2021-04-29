@@ -11,7 +11,8 @@
     "@tailwindcss/forms": "^0.3.2",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
-    "vue-router": "^3.5.1"
+    "vue-router": "^3.5.1",
+    "vuesax": "^4.0.1-alpha.25"
   },
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.1.0",
