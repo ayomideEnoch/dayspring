@@ -183,7 +183,7 @@
       </section>
       <section class="z-30 pt-28 w-full text-center space-y-9">
         <p class="font-extrabold text-5xl">Your Timeless Financial Service Provider</p>
-        <p class="text-xl font-semibold">
+        <p class="text-base font-semibold">
           We have provided over 300,000 loans to individuals and small businesses in
           Nigeria
         </p>
@@ -200,11 +200,11 @@
     >
       <div class="space-y-6 font-medium">
         <p class="font-extrabold" style="font-size: 35px">About Us</p>
-        <p style="font-size: 18px">
+        <p style="font-size: 14px">
           Dayspring Capital is Nigeria’s fastest growing financial services provider. We
           do this through our website, social media pages and customer experience center.
         </p>
-        <p style="font-size: 18px">
+        <p style="font-size: 14px">
           What makes Dayspring Capital unique among the packs of other financial service
           provider is that we also make this service available to individuals who are
           small business owners as it’s our desire to energize the economy through these
@@ -280,13 +280,13 @@
             </p>
             <button
               style="background: #1da737"
-              class="text-white mt-8 rounded-md py-3 px-7 text-base font-semibold"
+              class="text-white mt-9 rounded-md py-3 px-7 text-base font-semibold"
             >
               Read More
             </button>
           </div>
           <div
-            class="sm:w-2/5 w-full text-base font-normal rounded-3xl ml-3 mt-8 py-3 border border-gray-400"
+            class="sm:w-2/5 w-full text-base font-normal rounded-3xl ml-3 mt-6 py-3 border border-gray-100"
             style="font-size: 18px"
           >
             <div class="px-4">
@@ -297,18 +297,18 @@
                   class="pr-4"
                 />Dayspring Credit
               </p>
-              <p class="border-b border-gray-400 py-2 pt-3">Dayspring Asset Financing</p>
-              <p class="border-b border-gray-400 py-2 pt-3">Dayspring Market Money</p>
-              <p class="border-b border-gray-400 py-2 pt-3">Dayspring Asset Management</p>
-              <p class="border-b border-gray-400 py-2 pt-3">
+              <p class="border-b border-gray-300 py-2 pt-3">Dayspring Asset Financing</p>
+              <p class="border-b border-gray-300 py-2 pt-3">Dayspring Market Money</p>
+              <p class="border-b border-gray-300 py-2 pt-3">Dayspring Asset Management</p>
+              <p class="border-b border-gray-300 py-2 pt-3">
                 Dayspring Equipment Leasing
               </p>
-              <p class="border-b border-gray-400 py-2 pt-3">
+              <p class="border-b border-gray-300 py-2 pt-3">
                 Our Foreign Exchange Services
               </p>
-              <p class="border-b border-gray-400 py-2 pt-3">FX Brokerage & Transfer</p>
-              <p class="border-b border-gray-400 py-2 pt-3">Cash Delivery</p>
-              <p class="border-b border-gray-400 py-2 pt-3">
+              <p class="border-b border-gray-300 py-2 pt-3">FX Brokerage & Transfer</p>
+              <p class="border-b border-gray-300 py-2 pt-3">Cash Delivery</p>
+              <p class="border-b border-gray-300 py-2 pt-3">
                 Business Consultancy Services
               </p>
               <p class="py-2 pt-3">Investment Management</p>
@@ -367,7 +367,7 @@
       </p>
       <div class="flex justify-between w-full">
         <div class="w-full flex sm:space-x-12 space-x-0">
-          <div class="w-1/3 sm:block hidden">
+          <div class="w-1/3 sm:block hidden mt-1.5">
             <img
               class="w-80 inset-0 object-cover rounded-2xl"
               style="height: 524px"
@@ -380,13 +380,21 @@
               <div class="w-1/2">
                 <label for="fname" class="" style="font-size: 15px">First Name</label>
                 <br />
-                <input type="text" class="rounded-xl w-full" placeholder="e.g John" />
+                <input
+                  type="text"
+                  class="border border-gray-100 rounded-xl w-full"
+                  placeholder="e.g John"
+                />
               </div>
 
               <div class="w-1/2">
                 <label for="sname" class="" style="font-size: 15px">Second Name</label>
                 <br />
-                <input type="text" class="rounded-xl w-full" placeholder="e.g Doe" />
+                <input
+                  type="text"
+                  class="border border-gray-100 rounded-xl w-full"
+                  placeholder="e.g Doe"
+                />
               </div>
             </div>
 
@@ -396,7 +404,7 @@
                 <br />
                 <input
                   type="text"
-                  class="rounded-xl w-full"
+                  class="border border-gray-100 rounded-xl w-full"
                   placeholder="e.g johndoe@email.com"
                 />
               </div>
@@ -405,7 +413,7 @@
                 <br />
                 <input
                   type="text"
-                  class="rounded-xl w-full"
+                  class="border border-gray-100 rounded-xl w-full"
                   placeholder="e.g 08023456789"
                 />
               </div>
@@ -421,7 +429,7 @@
                 cols="60"
                 rows="10"
                 placeholder="Write your message here"
-                class="rounded-xl w-full"
+                class="border border-gray-100 rounded-xl w-full"
               >
               </textarea>
             </div>
@@ -437,7 +445,7 @@
     </section>
     <section class="pt-10 px-10 lg:px-44 mt-14 pb-10 bg-black text-white">
       <div class="w-full flex">
-        <div class="w-2/3">
+        <div class="w-2/3  md:w-1/2 sm:w-1/2">
           <div>
             <img src="../assets/logo.svg" alt="footer logo" class="w-36 h-36" />
             <div class="ml-6 -mt-10">
@@ -445,28 +453,32 @@
               <p class="mb-3" style="font-size: 8px">Capital Investments Limited</p>
             </div>
           </div>
-          <p style="font-size: 15px" class="mb-6">
+          <p style="font-size: 13px" class="mb-6">
             Be the first to know! Subscribe to our mailing list to keep up with the latest
             news and offers.
           </p>
-          <label for="email" class="" style="font-size: 15px">Email Address</label>
-          <br />
-          <div class="flex items-center space-x-5">
-            <input
-              type="email"
-              placeholder="e.g johndoe@email.com"
-              class="px-14 py-2 rounded-xl focus:outline-none focus:ring focus:border-blue-300 mt-1"
-            />
-            <button
-              style="background: #1da737"
-              class="text-white rounded-md py-2 px-7 text-xl font-semibold"
-            >
-              Subscribe
-            </button>
+          <div class="md:flex items-center block space-x-4 md:space-y-2">
+            <div>
+              <label for="email" class="">Email Address</label>
+              <br />
+              <input
+                type="text"
+                class="border border-gray-100 rounded-xl w-full"
+                placeholder="e.g johndoe@email.com"
+              />
+            </div>
+            <div>
+              <button
+                style="background: #1da737; font-size: 13px; padding: 10px 20px"
+                class="text-white rounded-md font-semibold mt-3.5"
+              >
+                Subscribe
+              </button>
+            </div>
           </div>
         </div>
-        <div class="w-1/3">
-          <div class="space-y-8" style="font-size: 15px">
+        <div class="w-1/3 md:w-1/2 sm:w-1/2">
+          <div class="md:space-y-8 space-y-3" style="font-size: 13px">
             <div class="">
               <a href="tel:+234 814 932 7275" class="flex">
                 <img style="color: #1da737" src="../assets/tel.svg" alt="tel icon" />
@@ -531,12 +543,12 @@
         </div>
       </div>
       <hr class="my-10" />
-      <div class="flex w-full items-center" style="font-size: 15px">
+      <div class="flex w-full items-center" style="font-size: 13px">
         <div class="w-2/3">
           <p>&#64;2021 Dayspring Capital RC 1640535. All rights reserved.</p>
         </div>
         <div class="w-1/3 flex justify-around">
-          <div class="space-x-12 flex" style="color: #1da737">
+          <div class="md:space-x-12 space-x-2 flex" style="color: #1da737">
             <a href="https://web.facebook.com" target="_blank">
               <img class="w-2 h-4" src="../assets/facebook.svg" alt="facebook" />
             </a>
@@ -550,7 +562,7 @@
           <div class="">
             <a href="/#top" class="flex space-x-2 items-center -mt-1">
               <img class="w-3 h-2" src="../assets/up.svg" alt="direction-top" />
-              <p>Back to top</p>
+              <p class="text-xs">Back to top</p>
             </a>
           </div>
         </div>
