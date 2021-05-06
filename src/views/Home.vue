@@ -43,7 +43,7 @@
         <div class="flex space-x-1 lg:space-x-3 justify-between">
           <!-- For Smaller Screens -->
           <div class="flex justify-between items-center space-x-5">
-            <a href="tel:+234 814 932 7275" class="sm:hidden">
+            <div class="sm:hidden">
               <vs-tooltip bottom>
                 <img
                   style="color: #1da737"
@@ -53,9 +53,9 @@
                 />
                 <template #tooltip> +234 814 932 7275, +234 810 950 7030 </template>
               </vs-tooltip>
-            </a>
+            </div>
 
-            <a href="mailto:support@dayspring.com" class="sm:hidden">
+            <div class="sm:hidden">
               <vs-tooltip bottom>
                 <img
                   style="color: #1da737"
@@ -65,11 +65,9 @@
                 />
                 <template #tooltip> support@dayspring.com</template>
               </vs-tooltip>
-            </a>
+            </div>
 
-            <a
-              href="https://www.google.com/maps/place/Amuwo+Odofin+Estate,+Lagos/@6.477648,3.2904734,14z/data=!4m5!3m4!1s0x103b892def871c8b:0xb4250ab791be1ae7!8m2!3d6.4768936!4d3.3137121"
-              target="_blank"
+            <div
               class="sm:hidden"
             >
               <vs-tooltip bottom>
@@ -83,7 +81,7 @@
                   Plot 24, Oba Onigbanko Way, Amuwo Odofin, Lagos</template
                 >
               </vs-tooltip>
-            </a>
+            </div>
 
             <div class="sm:hidden">
               <vs-tooltip bottom>
@@ -555,7 +553,11 @@
           </div>
           <div class="">
             <a href="/#top" class="flex space-x-2 items-center -mt-1">
-              <img class="sm:w-3 w-6 sm:h-2 h-4" src="../assets/up.svg" alt="direction-top" />
+              <img
+                class="sm:w-3 w-6 sm:h-2 h-4"
+                src="../assets/up.svg"
+                alt="direction-top"
+              />
               <p class="text-xs sm:block hidden">Back to top</p>
             </a>
           </div>
