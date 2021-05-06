@@ -444,8 +444,8 @@
       </div>
     </section>
     <section class="pt-10 px-10 lg:px-44 mt-14 pb-10 bg-black text-white">
-      <div class="w-full flex">
-        <div class="w-2/3  md:w-1/2 sm:w-1/2">
+      <div class="w-full sm:flex block sm:space-x-12">
+        <div class="sm:w-1/2 w-full">
           <div>
             <img src="../assets/logo.svg" alt="footer logo" class="w-36 h-36" />
             <div class="ml-6 -mt-10">
@@ -459,7 +459,7 @@
           </p>
           <div class="md:flex items-center block space-x-4 md:space-y-2">
             <div>
-              <label for="email" class="">Email Address</label>
+              <label for="email" class="text-black">Email Address</label>
               <br />
               <input
                 type="text"
@@ -477,12 +477,12 @@
             </div>
           </div>
         </div>
-        <div class="w-1/3 md:w-1/2 sm:w-1/2">
-          <div class="md:space-y-8 space-y-3" style="font-size: 13px">
+        <div class="sm:w-1/2 w-full">
+          <div class="md:space-y-8 space-y-6" style="font-size: 13px">
             <div class="">
               <a href="tel:+234 814 932 7275" class="flex">
                 <img style="color: #1da737" src="../assets/tel.svg" alt="tel icon" />
-                <div class="space-y-2 pl-4">
+                <div class="space-y-2 pl-4 mt-7">
                   <p class="text-extrabold">Phone Number(s)</p>
                   <p>+234 814 932 7275, +234 810 950 7030</p>
                 </div>
@@ -521,23 +521,17 @@
               </a>
             </div>
 
-            <div class="">
-              <a
-                href="https://www.google.com/maps/place/Amuwo+Odofin+Estate,+Lagos/@6.477648,3.2904734,14z/data=!4m5!3m4!1s0x103b892def871c8b:0xb4250ab791be1ae7!8m2!3d6.4768936!4d3.3137121"
-                target="_blank"
-                class="flex"
-              >
-                <img
-                  style="color: #1da737"
-                  src="../assets/time.svg"
-                  alt="tel icon"
-                  class=""
-                />
-                <div class="space-y-2 pl-4">
-                  <p class="text-extrabold">Opening Hours</p>
-                  <p>Mon - Frid: 9:00AM - 5:00PM</p>
-                </div>
-              </a>
+            <div class="flex">
+              <img
+                style="color: #1da737"
+                src="../assets/time.svg"
+                alt="tel icon"
+                class=""
+              />
+              <div class="space-y-2 pl-4">
+                <p class="text-extrabold">Opening Hours</p>
+                <p>Mon - Frid: 9:00AM - 5:00PM</p>
+              </div>
             </div>
           </div>
         </div>
@@ -561,8 +555,8 @@
           </div>
           <div class="">
             <a href="/#top" class="flex space-x-2 items-center -mt-1">
-              <img class="w-3 h-2" src="../assets/up.svg" alt="direction-top" />
-              <p class="text-xs">Back to top</p>
+              <img class="sm:w-3 w-6 sm:h-2 h-4" src="../assets/up.svg" alt="direction-top" />
+              <p class="text-xs sm:block hidden">Back to top</p>
             </a>
           </div>
         </div>
