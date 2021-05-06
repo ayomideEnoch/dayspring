@@ -67,9 +67,7 @@
               </vs-tooltip>
             </div>
 
-            <div
-              class="sm:hidden"
-            >
+            <div class="sm:hidden">
               <vs-tooltip bottom>
                 <img
                   style="color: #1da737"
@@ -457,11 +455,11 @@
           </p>
           <div class="md:flex items-center block space-x-4 md:space-y-2">
             <div>
-              <label for="email" class="text-black">Email Address</label>
+              <label for="email" class="">Email Address</label>
               <br />
               <input
                 type="text"
-                class="border border-gray-100 rounded-xl w-full"
+                class="border border-gray-100 rounded-xl w-full text-black"
                 placeholder="e.g johndoe@email.com"
               />
             </div>
