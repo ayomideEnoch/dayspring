@@ -3,8 +3,4 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    small-font {
-        'font-size': '10px', 
-    }
-}
+
